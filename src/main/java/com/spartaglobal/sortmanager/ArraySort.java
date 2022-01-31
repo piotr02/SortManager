@@ -25,6 +25,10 @@ public class ArraySort {
      * @param length the length of the array to be sorted
      */
     public void mergeSort(int[] ints, int length){
+        // making sure the code works if user inputs a wrong length
+        if(length != ints.length)
+            length = ints.length;
+
         // return if array can't be divided anymore
         if(length < 2)
             return;
@@ -48,28 +52,29 @@ public class ArraySort {
         mergeSort(left, division);
         mergeSort(right, length - division);
 
+        merge(ints, left, right, division, length - division);
+    }
+    public void merge(int[] ints, int[] left, int[] right, int l, int r) {
         // merging the arrays back into 1 array
         int i = 0;
         int j = 0;
         int k = 0;
 
         //sort and populate the array
-        while(i < division && j < length - division){
-            if(left[i] <= right[i]){
+        while (i < l && j < r) {
+            if (left[i] <= right[j]) {
                 ints[k++] = left[i++];
-            }
-            else{
+            } else {
                 ints[k++] = right[j++];
             }
         }
-        while(i < division){
+        while (i < l) {
             ints[k++] = left[i++];
         }
-        while(j < length - division){
+        while (j < r) {
             ints[k++] = right[j++];
         }
     }
-
     /**
      * A method that returns the array in a readable format
      *
@@ -78,20 +83,25 @@ public class ArraySort {
      */
     public String getArray(int[] ints){
         StringBuilder output = new StringBuilder();
-        for(int number: ints){
-            output.append(number);
-            output.append(", ");
+        if(ints.length == 0){
+            output.append("[]");
         }
-        output.delete(0, output.length());
-        output.append("[");
-        for(int i = 0; i < ints.length; i++){
-            if(i < ints.length - 1){
-                output.append(ints[i]);
+        else{
+            for(int number: ints){
+                output.append(number);
                 output.append(", ");
             }
-            else{
-                output.append(ints[i]);
-                output.append("]");
+            output.delete(0, output.length());
+            output.append("[");
+            for(int i = 0; i < ints.length; i++){
+                if(i < ints.length - 1){
+                    output.append(ints[i]);
+                    output.append(", ");
+                }
+                else{
+                    output.append(ints[i]);
+                    output.append("]");
+                }
             }
         }
         return output.toString();
