@@ -81,4 +81,14 @@ public class ArraySortTester {
         var actual = as.getArray(test);
         assertEquals(expected, actual);
     }
+
+    @Test
+    @DisplayName("Give an array with one value, returns a sorted array")
+    public void givenArrayWithOneValue_BubblesSortReturnsSortedArray(){
+        int[] test = {-12};
+        var expected = "[-12]";
+        as.bubbleSort(test);
+        var actual = as.getArray(test);
+        assertEquals(expected, actual);
+    }
 }
