@@ -3,10 +3,10 @@ package com.spartaglobal.sortmanager.model;
 public class MergeSort implements SortInterface{
 
     @Override
-    public String sort(int[] ints){
+    public int[] sort(int[] ints){
         mergeSort(ints, ints.length);
 
-        return displayArray(ints);
+        return ints;
     }
     public void mergeSort(int[] ints, int length) {
         // making sure the code works if user inputs a wrong length
@@ -59,31 +59,5 @@ public class MergeSort implements SortInterface{
         while (j < r) {
             ints[k++] = right[j++];
         }
-    }
-
-    public String displayArray(int[] ints){
-        StringBuilder output = new StringBuilder();
-        if(ints.length == 0){
-            output.append("[]");
-        }
-        else{
-            for(int number: ints){
-                output.append(number);
-                output.append(", ");
-            }
-            output.delete(0, output.length());
-            output.append("[");
-            for(int i = 0; i < ints.length; i++){
-                if(i < ints.length - 1){
-                    output.append(ints[i]);
-                    output.append(", ");
-                }
-                else{
-                    output.append(ints[i]);
-                    output.append("]");
-                }
-            }
-        }
-        return output.toString();
     }
 }

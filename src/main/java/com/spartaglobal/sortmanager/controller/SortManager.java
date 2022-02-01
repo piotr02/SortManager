@@ -3,20 +3,18 @@ package com.spartaglobal.sortmanager.controller;
 import com.spartaglobal.sortmanager.model.*;
 import com.spartaglobal.sortmanager.view.DisplayManager;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class SortManager {
-    public String initiateSorting(String desiredSortMethod){
+    public String initiateSorting(String desiredSortMethod, int[] unsortedArray){
         SortInterface si = getSort(desiredSortMethod);
         DisplayManager view = new DisplayManager();
 
-        Random r = new Random();
-        int[] ints = new int[10];
-        for(int i = 0; i < ints.length; i++){
-            ints[i] = r.nextInt(0, 100);
-        }
+        int[] arrayToSort = Arrays.copyOf(unsortedArray, unsortedArray.length);
+        arrayToSort = si.sort(arrayToSort);
 
-        return si.sort(ints);
+        return view.displayArray(arrayToSort);
     }
 
     public static SortInterface getSort(String sortMethod){
