@@ -1,38 +1,72 @@
 package com.spartaglobal.sortmanager.view;
 
-import com.spartaglobal.sortmanager.model.ArrayGenerator;
-
 import java.util.Scanner;
 
 public class DisplayManager {
+    /**
+     * Asks the user for input and returns a desired sorting method from it.
+     *
+     * @return desired sorting method
+     */
     public String getDesiredSortMethod(){
-        System.out.println("Available sorting methods:\n| BubbleSort | MergeSort |\nPlease enter what sorting method to use: ");
+        System.out.println("Available sorting methods:\n\n"
+                + "| BubbleSort | MergeSort |\n\n"
+                + "------------------------------------------\n"
+                + "Please enter what sorting method to use: "
+                + "\n------------------------------------------");
         Scanner sc = new Scanner(System.in);
         String desiredSortMethod = sc.next();
         return desiredSortMethod;
     }
 
+    /**
+     * Asks the user for input and returns a desired array size from it.
+     *
+     * @return desired array size
+     */
     public int getDesiredArraySize(){
-        System.out.println("Enter array size: ");
+        System.out.println("------------------------------------------\n"
+                +"Enter array size: "
+                + "\n------------------------------------------");
         Scanner sc = new Scanner(System.in);
         int desiredArraySize = sc.nextInt();
         return desiredArraySize;
     }
 
+    /**
+     * Asks the user for input and returns a desired array value range from it.
+     *
+     * @return desired array value range
+     */
     public int getDesiredArrayBounds(){
-        System.out.println("Enter the desired maximum possible number: ");
+        System.out.println("------------------------------------------\n"
+                + "Enter the desired maximum possible number: "
+                + "\n------------------------------------------");
         Scanner sc = new Scanner(System.in);
         int desiredArrayBounds = sc.nextInt();
         return desiredArrayBounds;
     }
 
+    /**
+     * Asks the user if they want to create a random array and returns a desired answer from it.
+     *
+     * @return desired answer
+     */
     public String getDesiredRandom(){
-        System.out.println("Would you like to generate a random array?");
+        System.out.println("------------------------------------------\n" +
+                "Would you like to generate a random array?\n"
+                + "------------------------------------------");
         Scanner sc = new Scanner(System.in);
         String desiredRandom = sc.next();
         return desiredRandom.toLowerCase();
     }
 
+    /**
+     * Converts an array into a readable String format.
+     *
+     * @param ints array to be converted
+     * @return array in a String format
+     */
     public String displayArray(int[] ints){
         StringBuilder output = new StringBuilder();
         if(ints.length == 0){
@@ -59,7 +93,14 @@ public class DisplayManager {
         return output.toString();
     }
 
+    /**
+     * Prints the result of a sorting algorithm.
+     *
+     * @param result result of a sorting algorithm
+     */
     public void getResult(String result){
-        System.out.println("Sorted Array:\n" + result);
+        System.out.println("------------------------------------------\n"
+                + "Sorted Array:\n\n"
+                + result);
     }
 }

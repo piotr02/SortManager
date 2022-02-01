@@ -8,6 +8,8 @@ import java.util.Arrays;
 
 public class SortManagerMain {
     public static void main(String[] args) {
+        System.out.println("===============SORT MANAGER===============\n");
+
         DisplayManager view = new DisplayManager();
         String desiredSortMethod = view.getDesiredSortMethod();
         SortManager controller = new SortManager();
@@ -16,6 +18,7 @@ public class SortManagerMain {
 
         ArrayGenerator ag = new ArrayGenerator();
 
+        // decides which array generation method to use
         if(desiredRandom.equals("yes")){
             int arraySize = view.getDesiredArraySize();
             int arrayBounds = view.getDesiredArrayBounds();
@@ -27,17 +30,19 @@ public class SortManagerMain {
             ag.generateCustomArray(arraySize);
         }
 
-
-
-
         int [] unsortedArray = ag.getUnsortedArray();
         int [] sortingArray = Arrays.copyOf(unsortedArray, unsortedArray.length);
         int [] comparisonArray = Arrays.copyOf(unsortedArray, unsortedArray.length);
         Arrays.sort(comparisonArray);
 
         String result = controller.initiateSorting(desiredSortMethod, sortingArray);
-        System.out.println("Unsorted array:\n" + view.displayArray(unsortedArray));
+        System.out.println("------------------------------------------\n"
+                + "Unsorted array:\n\n"
+                + view.displayArray(unsortedArray));
         view.getResult(result);
-        System.out.println("Array sorted with Arrays.sort():\n" + view.displayArray(comparisonArray));
+        System.out.println("------------------------------------------\n"
+                + "Array sorted with Arrays.sort():\n\n"
+                + view.displayArray(comparisonArray)
+                + "\n------------------------------------------");
     }
 }
