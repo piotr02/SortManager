@@ -1,5 +1,7 @@
 package com.spartaglobal.sortmanager.model;
 
+import com.spartaglobal.sortmanager.view.DisplayManager;
+
 import java.util.Random;
 import java.util.Scanner;
 
