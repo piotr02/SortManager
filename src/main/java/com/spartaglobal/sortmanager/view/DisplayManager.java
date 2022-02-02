@@ -29,6 +29,10 @@ public class DisplayManager {
                 +"Enter array size: "
                 + "\n------------------------------------------");
         Scanner sc = new Scanner(System.in);
+        while(!sc.hasNextInt()){
+            System.out.println("Incorrect number! Enter a number: ");
+            sc.next();
+        }
         int desiredArraySize = sc.nextInt();
         return desiredArraySize;
     }
@@ -43,6 +47,10 @@ public class DisplayManager {
                 + "Enter the desired maximum possible number: "
                 + "\n------------------------------------------");
         Scanner sc = new Scanner(System.in);
+        while(!sc.hasNextInt()){
+            System.out.println("Incorrect number! Enter a number: ");
+            sc.next();
+        }
         int desiredArrayBounds = sc.nextInt();
         return desiredArrayBounds;
     }

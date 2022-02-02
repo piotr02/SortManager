@@ -43,6 +43,10 @@ public class ArrayGenerator {
         for(int i = 0; i < createdArray.length; i++){
             System.out.println("------------------------------------------\n"
                     + "Enter a value: ");
+            while(!sc.hasNextInt()){
+                System.out.println("Incorrect number! Enter a number: ");
+                sc.next();
+            }
             createdArray[i] = sc.nextInt();
         }
         unsortedArray = createdArray;
