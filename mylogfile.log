@@ -37,3 +37,42 @@ FILE [WARN ] 2022-02-02 19:54:47,118 main Logger - warning
 FILE [WARN ] 2022-02-02 19:57:19,511 main Logger - warning
 FILE [WARN ] 2022-02-02 20:00:15,173 main Logger - warning
 FILE [WARN ] 2022-02-02 20:01:09,353 main Logger - warning
+FILE [WARN ] 2022-02-02 20:08:54,404 main Logger - warning
+FILE [INFO ] 2022-02-02 20:08:58,992 main Logger - bubblesort
+FILE [WARN ] 2022-02-02 20:10:08,872 main Logger - warning
+FILE [INFO ] 2022-02-02 20:10:15,327 main Logger - desiredSortMethod value = bubblesort
+FILE [WARN ] 2022-02-02 20:11:16,157 main Logger - warning
+FILE [INFO ] 2022-02-02 20:11:20,957 main Logger - desiredSortMethod value = bubblesort
+FILE [INFO ] 2022-02-02 20:11:29,457 main Logger - Desired type of array= yes
+FILE [WARN ] 2022-02-02 20:17:15,139 main Logger - warning
+FILE [INFO ] 2022-02-02 20:17:18,298 main Logger - desiredSortMethod value = bubblesort
+FILE [INFO ] 2022-02-02 20:17:19,965 main Logger - Desired type of array= yes
+FILE [INFO ] 2022-02-02 20:18:00,355 main Logger - arraySize= 5
+FILE [INFO ] 2022-02-02 20:18:02,840 main Logger - arrayBounds= 10
+FILE [INFO ] 2022-02-02 20:18:02,840 main Logger - Unsorted array= [I@1ba9117e
+FILE [INFO ] 2022-02-02 21:42:11,215 main Logger - Program Start
+FILE [INFO ] 2022-02-02 21:42:15,579 main Logger - desiredSortMethod value = f
+FILE [INFO ] 2022-02-02 21:42:25,404 main Logger - Desired type of array= yes
+FILE [INFO ] 2022-02-02 21:42:30,833 main Logger - arraySize= 5
+FILE [INFO ] 2022-02-02 21:42:33,451 main Logger - arrayBounds= 10
+FILE [INFO ] 2022-02-02 21:42:33,451 main Logger - Unsorted array= [-10, 6, -4, 2, 0]
+FILE [INFO ] 2022-02-02 21:42:33,452 main Logger - unsortedArray= [-10, 6, -4, 2, 0]
+FILE [INFO ] 2022-02-02 21:42:33,452 main Logger - sortingArray= [-10, 6, -4, 2, 0]
+FILE [INFO ] 2022-02-02 21:42:33,452 main Logger - comparisonArray= [-10, 6, -4, 2, 0]
+FILE [INFO ] 2022-02-02 21:42:33,452 main Logger - comparisonArray= [-10, -4, 0, 2, 6]
+FILE [INFO ] 2022-02-02 21:49:10,110 main Logger - Program Start
+FILE [INFO ] 2022-02-02 21:50:50,001 main Logger - Program Start
+FILE [INFO ] 2022-02-02 21:54:10,020 main Logger - Program Start
+FILE [INFO ] 2022-02-02 21:58:50,326 main Logger - Program Start
+FILE [INFO ] 2022-02-02 21:59:08,023 main Logger - desiredSortMethod value = bubblesort
+FILE [INFO ] 2022-02-02 22:00:49,940 main Logger - Program Start
+FILE [INFO ] 2022-02-02 22:01:53,577 main Logger - Program Start
+FILE [INFO ] 2022-02-02 22:04:48,437 main Logger - Program Start
+FILE [INFO ] 2022-02-02 22:04:55,390 main Logger - desiredSortMethod value = bubblesort
+FILE [INFO ] 2022-02-02 22:05:10,803 main Logger - Program Start
+FILE [INFO ] 2022-02-02 22:05:16,086 main Logger - desiredSortMethod value = bubblesort
+FILE [INFO ] 2022-02-02 22:05:25,984 main Logger - Program Start
+FILE [INFO ] 2022-02-02 22:05:35,144 main Logger - desiredSortMethod value = mergesort
+FILE [INFO ] 2022-02-02 22:09:06,979 main Logger - Program Start
+FILE [INFO ] 2022-02-02 22:09:13,933 main Logger - desiredSortMethod value = bubblesort
+FILE [INFO ] 2022-02-02 22:09:21,406 main Logger - Desired type of array= yes

@@ -12,43 +12,71 @@ public class SortManagerMain {
     public static Logger logger = LogManager.getLogger("Logger");
 
     public static void main(String[] args) {
-        logger.warn("warning");
+        logger.info("Program Start");
         System.out.println("===============SORT MANAGER===============\n");
 
         DisplayManager view = new DisplayManager();
         String desiredSortMethod = view.getDesiredSortMethod();
+        logger.info("desiredSortMethod value = " + desiredSortMethod);
         SortManager controller = new SortManager();
 
         String desiredRandom = view.getDesiredRandom();
+        logger.info("Desired type of array= " + desiredRandom);
 
         ArrayGenerator ag = new ArrayGenerator();
 
-        // decides which array generation method to use
-        while (true) {
-            if(desiredRandom.equals("yes")){
-                int arraySize = view.getDesiredArraySize();
+//        // decides which array generation method to use
+//        while (true) {
+//            if(desiredRandom.equals("yes")){
+//                int arraySize = view.getDesiredArraySize();
+//                logger.info("arraySize= " + arraySize);
+//                int arrayBounds = view.getDesiredArrayBounds();
+//                logger.info("arrayBounds= " + arrayBounds);
+//
+//                ag.generateRandomArray(arraySize, arrayBounds);
+//                logger.info("Unsorted array= " + view.displayArray(ag.getUnsortedArray()));
+//                break;
+//            }
+//            else if(desiredRandom.equals("no")){
+//                int arraySize = view.getDesiredArraySize();
+//                logger.info("arraySize= " + arraySize);
+//                ag.generateCustomArray(arraySize);
+//                logger.info("Unsorted array= " + view.displayArray(ag.getUnsortedArray()));
+//                break;
+//            }
+//            else {
+//                System.out.println("Answer \"yes\" or \"no\".");
+//                desiredRandom = view.getDesiredRandom();
+//                logger.info("Desired type of array= " + desiredRandom);
+//            }
+//        }
+        if(desiredRandom.equals("yes")){
+            int arraySize = view.getDesiredArraySize();
+                logger.info("arraySize= " + arraySize);
                 int arrayBounds = view.getDesiredArrayBounds();
+                logger.info("arrayBounds= " + arrayBounds);
 
                 ag.generateRandomArray(arraySize, arrayBounds);
-                break;
-            }
-            else if(desiredRandom.equals("no")){
-                int arraySize = view.getDesiredArraySize();
+                logger.info("Unsorted array= " + view.displayArray(ag.getUnsortedArray()));
+        }
+        else{
+            int arraySize = view.getDesiredArraySize();
+                logger.info("arraySize= " + arraySize);
                 ag.generateCustomArray(arraySize);
-                break;
-            }
-            else {
-                System.out.println("Answer \"yes\" or \"no\".");
-                desiredRandom = view.getDesiredRandom();
-            }
+                logger.info("Unsorted array= " + view.displayArray(ag.getUnsortedArray()));
         }
 
         int [] unsortedArray = ag.getUnsortedArray();
+        logger.info("unsortedArray= " + view.displayArray(unsortedArray));
         int [] sortingArray = Arrays.copyOf(unsortedArray, unsortedArray.length);
+        logger.info("sortingArray= " + view.displayArray(sortingArray));
         int [] comparisonArray = Arrays.copyOf(unsortedArray, unsortedArray.length);
+        logger.info("comparisonArray= " + view.displayArray(comparisonArray));
         Arrays.sort(comparisonArray);
+        logger.info("comparisonArray= " + view.displayArray(comparisonArray));
 
         String result = controller.initiateSorting(desiredSortMethod, sortingArray);
+        logger.info("result= " + result);
         System.out.println("------------------------------------------\n"
                 + "Unsorted array:\n\n"
                 + view.displayArray(unsortedArray));

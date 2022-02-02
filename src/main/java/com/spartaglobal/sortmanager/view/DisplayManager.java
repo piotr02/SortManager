@@ -16,6 +16,10 @@ public class DisplayManager {
                 + "\n------------------------------------------");
         Scanner sc = new Scanner(System.in);
         String desiredSortMethod = sc.next();
+        while(!desiredSortMethod.equals("bubblesort") && !desiredSortMethod.equals("mergesort")){
+            System.out.println("Incorrect method! Try again: ");
+            desiredSortMethod =sc.next();
+        }
         return desiredSortMethod;
     }
 
@@ -66,6 +70,11 @@ public class DisplayManager {
                 + "------------------------------------------");
         Scanner sc = new Scanner(System.in);
         String desiredRandom = sc.next();
+//        return desiredRandom.toLowerCase();
+        while(!desiredRandom.equalsIgnoreCase("yes") && !desiredRandom.equalsIgnoreCase("no")){
+            System.out.println("Incorrect answer! Try again: ");
+            desiredRandom =sc.next();
+        }
         return desiredRandom.toLowerCase();
     }
 
