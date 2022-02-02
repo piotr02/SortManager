@@ -17,11 +17,11 @@ public class SortManagerMain {
 
         DisplayManager view = new DisplayManager();
         String desiredSortMethod = view.getDesiredSortMethod();
-        logger.info("desiredSortMethod value = " + desiredSortMethod);
+        logger.debug("desiredSortMethod= " + desiredSortMethod);
         SortManager controller = new SortManager();
 
         String desiredRandom = view.getDesiredRandom();
-        logger.info("Desired type of array= " + desiredRandom);
+        logger.debug("desiredRandom= " + desiredRandom);
 
         ArrayGenerator ag = new ArrayGenerator();
 
@@ -52,28 +52,28 @@ public class SortManagerMain {
 //        }
         if(desiredRandom.equals("yes")){
             int arraySize = view.getDesiredArraySize();
-                logger.info("arraySize= " + arraySize);
+                logger.debug("arraySize= " + arraySize);
                 int arrayBounds = view.getDesiredArrayBounds();
-                logger.info("arrayBounds= " + arrayBounds);
+                logger.debug("arrayBounds= " + arrayBounds);
 
                 ag.generateRandomArray(arraySize, arrayBounds);
                 logger.info("Unsorted array= " + view.displayArray(ag.getUnsortedArray()));
         }
         else{
             int arraySize = view.getDesiredArraySize();
-                logger.info("arraySize= " + arraySize);
+                logger.debug("arraySize= " + arraySize);
                 ag.generateCustomArray(arraySize);
                 logger.info("Unsorted array= " + view.displayArray(ag.getUnsortedArray()));
         }
 
         int [] unsortedArray = ag.getUnsortedArray();
-        logger.info("unsortedArray= " + view.displayArray(unsortedArray));
+        logger.debug("unsortedArray= " + view.displayArray(unsortedArray));
         int [] sortingArray = Arrays.copyOf(unsortedArray, unsortedArray.length);
-        logger.info("sortingArray= " + view.displayArray(sortingArray));
+        logger.debug("sortingArray= " + view.displayArray(sortingArray));
         int [] comparisonArray = Arrays.copyOf(unsortedArray, unsortedArray.length);
-        logger.info("comparisonArray= " + view.displayArray(comparisonArray));
+        logger.debug("comparisonArray= " + view.displayArray(comparisonArray));
         Arrays.sort(comparisonArray);
-        logger.info("comparisonArray= " + view.displayArray(comparisonArray));
+        logger.debug("comparisonArray= " + view.displayArray(comparisonArray));
 
         String result = controller.initiateSorting(desiredSortMethod, sortingArray);
         logger.info("result= " + result);
