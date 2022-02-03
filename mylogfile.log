@@ -1198,3 +1198,62 @@ Milliseconds:
 13167.4423
 Seconds:
 13.1674423
+FILE [INFO ] 2022-02-03 21:24:14,850 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-03 21:24:20,100 main Logger - desiredSortMethod= tree
+FILE [DEBUG] 2022-02-03 21:24:20,100 main Logger - desiredSortMethod= tree
+FILE [DEBUG] 2022-02-03 21:24:20,101 main Logger - desiredSortMethod= tree
+FILE [DEBUG] 2022-02-03 21:24:22,138 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-03 21:24:22,139 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-03 21:24:22,139 main Logger - desiredRandom= random
+FILE [DEBUG] 2022-02-03 21:24:23,963 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-03 21:24:23,963 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-03 21:24:23,963 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-03 21:24:25,180 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-03 21:24:25,181 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-03 21:24:25,181 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-03 21:24:25,181 main Logger - size= 10
+FILE [DEBUG] 2022-02-03 21:24:25,182 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-03 21:24:25,182 main Logger - unsortedArray= [-59, 6, 10, -73, 92, 54, 92, 19, 44, 82]
+FILE [INFO ] 2022-02-03 21:24:25,182 main Logger - Unsorted array= [-59, 6, 10, -73, 92, 54, 92, 19, 44, 82]
+FILE [DEBUG] 2022-02-03 21:24:25,182 main Logger - unsortedArray= [-59, 6, 10, -73, 92, 54, 92, 19, 44, 82]
+FILE [DEBUG] 2022-02-03 21:24:25,182 main Logger - sortingArray= [-59, 6, 10, -73, 92, 54, 92, 19, 44, 82]
+FILE [DEBUG] 2022-02-03 21:24:25,183 main Logger - comparisonArray= [-59, 6, 10, -73, 92, 54, 92, 19, 44, 82]
+FILE [DEBUG] 2022-02-03 21:24:25,183 main Logger - comparisonArray= [-73, -59, 6, 10, 19, 44, 54, 82, 92, 92]
+FILE [INFO ] 2022-02-03 21:24:25,183 main Logger - desiredSortMethod= tree
+FILE [INFO ] 2022-02-03 21:24:25,183 main Logger - unsortedArray= [-59, 6, 10, -73, 92, 54, 92, 19, 44, 82]
+FILE [DEBUG] 2022-02-03 21:24:25,183 main Logger - sortMethod = tree
+FILE [DEBUG] 2022-02-03 21:24:25,186 main Logger - sortMethod = tree
+FILE [INFO ] 2022-02-03 21:24:25,186 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BinarySearchTreeFacade
+FILE [DEBUG] 2022-02-03 21:24:25,186 main Logger - arrayToSort= [-59, 6, 10, -73, 92, 54, 92, 19, 44, 82]
+FILE [DEBUG] 2022-02-03 21:24:25,187 main Logger - ints= [-59, 6, 10, -73, 92, 54, 92, 19, 44, 82]
+FILE [DEBUG] 2022-02-03 21:24:25,188 main Logger - Entered value= -59
+FILE [DEBUG] 2022-02-03 21:24:25,188 main Logger - Entered value= 6
+FILE [DEBUG] 2022-02-03 21:24:25,188 main Logger - Entered value= 10
+FILE [DEBUG] 2022-02-03 21:24:25,188 main Logger - Entered value= -73
+FILE [DEBUG] 2022-02-03 21:24:25,188 main Logger - Entered value= 92
+FILE [DEBUG] 2022-02-03 21:24:25,188 main Logger - Entered value= 54
+FILE [DEBUG] 2022-02-03 21:24:25,189 main Logger - Entered value= 92
+FILE [DEBUG] 2022-02-03 21:24:25,189 main Logger - Entered value= 19
+FILE [DEBUG] 2022-02-03 21:24:25,189 main Logger - Entered value= 44
+FILE [DEBUG] 2022-02-03 21:24:25,189 main Logger - Entered value= 82
+FILE [DEBUG] 2022-02-03 21:24:25,189 main Logger - value= -73
+FILE [DEBUG] 2022-02-03 21:24:25,189 main Logger - value= -59
+FILE [DEBUG] 2022-02-03 21:24:25,189 main Logger - value= 6
+FILE [DEBUG] 2022-02-03 21:24:25,189 main Logger - value= 10
+FILE [DEBUG] 2022-02-03 21:24:25,190 main Logger - value= 19
+FILE [DEBUG] 2022-02-03 21:24:25,190 main Logger - value= 44
+FILE [DEBUG] 2022-02-03 21:24:25,190 main Logger - value= 54
+FILE [DEBUG] 2022-02-03 21:24:25,190 main Logger - value= 82
+FILE [DEBUG] 2022-02-03 21:24:25,190 main Logger - value= 92
+FILE [DEBUG] 2022-02-03 21:24:25,190 main Logger - output= [-73, -59, 6, 10, 19, 44, 54, 82, 92]
+FILE [DEBUG] 2022-02-03 21:24:25,190 main Logger - arrayToSort= [-73, -59, 6, 10, 19, 44, 54, 82, 92]
+FILE [INFO ] 2022-02-03 21:24:25,191 main Logger - result= [-73, -59, 6, 10, 19, 44, 54, 82, 92]
+FILE [DEBUG] 2022-02-03 21:24:25,191 main Logger - result= [-73, -59, 6, 10, 19, 44, 54, 82, 92]
+FILE [INFO ] 2022-02-03 21:24:25,205 main Logger - Execution time(tree) in nano seconds:
+10349301500
+Milliseconds:
+10349.3015
+Seconds:
+10.3493015
