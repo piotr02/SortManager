@@ -38,8 +38,9 @@ public class SortManager {
     public static SortInterface getSort(String sortMethod) {
         SortManagerMain.logger.debug("sortMethod = " + sortMethod);
         SortFactory sf = switch (sortMethod.toLowerCase()) {
-            case "bubblesort" -> new BubbleSortFactory();
-            case "mergesort" -> new MergeSortFactory();
+            case "bubble" -> new BubbleSortFactory();
+            case "merge" -> new MergeSortFactory();
+            case "tree" -> new BinarySearchTreeFactory();
             default -> null;
         };
         return sf.getInstance();

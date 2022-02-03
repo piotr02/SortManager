@@ -22,7 +22,7 @@ public class SortManagerMain {
         logger.debug("desiredSortMethod= " + desiredSortMethod);
         SortManager controller = new SortManager();
 
-        String desiredRandom = view.getDesiredRandom();
+        String desiredRandom = view.getDesiredArrayType();
         logger.debug("desiredRandom= " + desiredRandom);
 
         ArrayGenerator ag = new ArrayGenerator();
@@ -52,7 +52,7 @@ public class SortManagerMain {
 //                logger.info("Desired type of array= " + desiredRandom);
 //            }
 //        }
-        if(desiredRandom.equals("yes")){
+        if(desiredRandom.equals("random")){
             int arraySize = view.getDesiredArraySize();
                 logger.debug("arraySize= " + arraySize);
                 int arrayBounds = view.getDesiredArrayBounds();
@@ -89,7 +89,7 @@ public class SortManagerMain {
                 + "\n------------------------------------------");
 
         long endTime = System.nanoTime();
-        logger.info("Execution time in nano seconds:\n" + (endTime - startTime)
+        logger.info("Execution time(" + desiredSortMethod + ") in nano seconds:\n" + (endTime - startTime)
                 + "\nMilliseconds:\n" + ((double)(endTime - startTime)/1000000)
                 + "\nSeconds:\n" + ((double)(endTime - startTime)/1000000000));
     }
