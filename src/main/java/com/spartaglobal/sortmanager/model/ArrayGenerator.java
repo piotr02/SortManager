@@ -1,5 +1,6 @@
 package com.spartaglobal.sortmanager.model;
 
+import com.spartaglobal.sortmanager.SortManagerMain;
 import com.spartaglobal.sortmanager.view.DisplayManager;
 
 import java.util.Random;
@@ -15,12 +16,15 @@ public class ArrayGenerator {
      * @param bounds desired range of the numbers in the array
      */
     public void generateRandomArray(int size, int bounds){
+        SortManagerMain.logger.debug("size= " + size);
+        SortManagerMain.logger.debug("bounds= " + bounds);
         Random r = new Random();
         int[] array = new int[size];
         for(int i = 0; i < array.length; i++){
-            array[i] = r.nextInt(-bounds, bounds);
+            array[i] = r.nextInt(-bounds, bounds+1);
         }
         unsortedArray = array;
+        SortManagerMain.logger.debug("unsortedArray= " + new DisplayManager().displayArray(unsortedArray));
     }
 
     /**
@@ -38,17 +42,20 @@ public class ArrayGenerator {
      * @param size desired size of the array
      */
     public void generateCustomArray(int size){
+        SortManagerMain.logger.debug("size= " + size);
         Scanner sc = new Scanner(System.in);
         int[] createdArray = new int[size];
         for(int i = 0; i < createdArray.length; i++){
             System.out.println("------------------------------------------\n"
                     + "Enter a value: ");
             while(!sc.hasNextInt()){
+                SortManagerMain.logger.warn("Incorrect value entered!");
                 System.out.println("Incorrect number! Enter a number: ");
                 sc.next();
             }
             createdArray[i] = sc.nextInt();
         }
         unsortedArray = createdArray;
+        SortManagerMain.logger.debug("unsortedArray= " + new DisplayManager().displayArray(unsortedArray));
     }
 }

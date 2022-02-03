@@ -12,7 +12,9 @@ public class SortManagerMain {
     public static Logger logger = LogManager.getLogger("Logger");
 
     public static void main(String[] args) {
-        logger.info("Program Start");
+        long startTime = System.nanoTime();
+
+        logger.info("\nProgram Start\n");
         System.out.println("===============SORT MANAGER===============\n");
 
         DisplayManager view = new DisplayManager();
@@ -86,5 +88,9 @@ public class SortManagerMain {
                 + view.displayArray(comparisonArray)
                 + "\n------------------------------------------");
 
+        long endTime = System.nanoTime();
+        logger.info("Execution time in nano seconds:\n" + (endTime - startTime)
+                + "\nMilliseconds:\n" + ((double)(endTime - startTime)/1000000)
+                + "\nSeconds:\n" + ((double)(endTime - startTime)/1000000000));
     }
 }

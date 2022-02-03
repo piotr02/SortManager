@@ -38,6 +38,10 @@ public class DisplayManager {
             sc.next();
         }
         int desiredArraySize = sc.nextInt();
+        if(desiredArraySize < 0){
+            System.out.println("Negative input! Array size will be: " + (desiredArraySize * (-1)));
+            desiredArraySize = desiredArraySize * (-1);
+        }
         return desiredArraySize;
     }
 
@@ -56,6 +60,10 @@ public class DisplayManager {
             sc.next();
         }
         int desiredArrayBounds = sc.nextInt();
+        if(desiredArrayBounds < 0){
+            System.out.println("Negative input! Maximum number will be: " + (desiredArrayBounds * (-1)));
+            desiredArrayBounds = desiredArrayBounds * (-1);
+        }
         return desiredArrayBounds;
     }
 

@@ -36,6 +36,7 @@ public class SortManager {
      * @return the instance of the chosen sorting algorithm
      */
     public static SortInterface getSort(String sortMethod) {
+        SortManagerMain.logger.debug("sortMethod = " + sortMethod);
         SortFactory sf = switch (sortMethod.toLowerCase()) {
             case "bubblesort" -> new BubbleSortFactory();
             case "mergesort" -> new MergeSortFactory();
