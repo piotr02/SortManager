@@ -146,27 +146,8 @@ public class DisplayManager {
         System.out.println("===============SORT MANAGER===============\n");
     }
 
-//    /**
-//     * Prints the result of a sorting algorithm.
-//     *
-//     * @param result result of a sorting algorithm
-//     */
-//    public void getResult(String result){
-//        SortManagerMain.logger.debug("result= " + result);
-//        System.out.println("------------------------------------------\n"
-//                + "Sorted Array:\n\n"
-//                + result);
-//    }
-
     public void getResult(String result, String sortMethod){
         SortManagerMain.logger.debug("result= " + result);
-//        System.out.println("------------------------------------------\n"
-//                + "Unsorted array:\n\n"
-//                + displayArray(unsortedArray));
-//        System.out.println("------------------------------------------\n"
-//                + "Array sorted with Arrays.sort():\n\n"
-//                + displayArray(comparisonArray)
-//                + "\n------------------------------------------");
         System.out.println("Sorted Array with " + sortMethod + " :\n\n"
                 + result
                 + "\n------------------------------------------");

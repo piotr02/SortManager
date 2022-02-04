@@ -17,7 +17,7 @@ public class BinarySearchTreeFacade implements SortInterface{
         BinarySearchTree bst = new BinarySearchTree();
         BinarySearchTree.Node root = bst.new Node(ints[0]);
 
-        for(int i = 0; i < ints.length; i++){
+        for(int i = 1; i < ints.length; i++){
             bst.populateTree(root, ints[i]);
             SortManagerMain.logger.debug("Entered value= " + ints[i]);
         }
