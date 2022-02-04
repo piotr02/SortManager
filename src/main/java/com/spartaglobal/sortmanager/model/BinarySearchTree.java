@@ -3,7 +3,7 @@ package com.spartaglobal.sortmanager.model;
 import java.util.ArrayList;
 
 public class BinarySearchTree{
-    public class Node{
+    class Node{
         int value;
         Node left;
         Node right;
@@ -24,7 +24,7 @@ public class BinarySearchTree{
             return new Node(value);
         }
 
-        if (value < current.value) {
+        if (value <= current.value) {
             current.left = populateTree(current.left, value);
         } else if (value > current.value) {
             current.right = populateTree(current.right, value);

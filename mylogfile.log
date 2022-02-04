@@ -1257,3 +1257,1433 @@ Milliseconds:
 10349.3015
 Seconds:
 10.3493015
+FILE [INFO ] 2022-02-04 10:29:19,932 main Logger - 
+Program Start
+
+FILE [INFO ] 2022-02-04 10:29:57,003 main Logger - 
+Program Start
+
+FILE [INFO ] 2022-02-04 10:45:26,609 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 10:45:30,606 main Logger - desiredSortMethod= bubblemerge
+FILE [DEBUG] 2022-02-04 10:45:30,606 main Logger - desiredSortMethod= bubblemerge
+FILE [DEBUG] 2022-02-04 10:45:30,606 main Logger - desiredSortMethod= bubblemerge
+FILE [DEBUG] 2022-02-04 10:45:33,289 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 10:45:33,289 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 10:45:33,289 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 10:45:36,422 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 10:45:36,423 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 10:45:36,423 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 10:45:37,613 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 10:45:37,614 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 10:45:37,614 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 10:45:37,614 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 10:45:37,615 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 10:45:37,615 main Logger - unsortedArray= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [INFO ] 2022-02-04 10:45:37,615 main Logger - Unsorted array= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,615 main Logger - unsortedArray= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,616 main Logger - sortingArray= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,616 main Logger - comparisonArray= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,616 main Logger - comparisonArray= [-67, -64, -17, 21, 23, 25, 55, 71, 88, 95]
+FILE [INFO ] 2022-02-04 10:45:37,616 main Logger - desiredSortMethod= bubble
+FILE [INFO ] 2022-02-04 10:45:37,617 main Logger - unsortedArray= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,617 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-04 10:45:37,647 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-04 10:45:37,647 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BubbleSort
+FILE [DEBUG] 2022-02-04 10:45:37,647 main Logger - arrayToSort= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,648 main Logger - array= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,648 main Logger - array= [-67, -64, -17, 21, 23, 25, 55, 71, 88, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,648 main Logger - arrayToSort= [-67, -64, -17, 21, 23, 25, 55, 71, 88, 95]
+FILE [INFO ] 2022-02-04 10:45:37,648 main Logger - result= [-67, -64, -17, 21, 23, 25, 55, 71, 88, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,648 main Logger - result= [-67, -64, -17, 21, 23, 25, 55, 71, 88, 95]
+FILE [INFO ] 2022-02-04 10:45:37,671 main Logger - Execution time(bubblemerge) in nano seconds:
+11044893600
+Milliseconds:
+11044.8936
+Seconds:
+11.0448936
+FILE [DEBUG] 2022-02-04 10:45:37,671 main Logger - unsortedArray= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,671 main Logger - sortingArray= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,671 main Logger - comparisonArray= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,671 main Logger - comparisonArray= [-67, -64, -17, 21, 23, 25, 55, 71, 88, 95]
+FILE [INFO ] 2022-02-04 10:45:37,671 main Logger - desiredSortMethod= merge
+FILE [INFO ] 2022-02-04 10:45:37,672 main Logger - unsortedArray= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,672 main Logger - sortMethod = merge
+FILE [DEBUG] 2022-02-04 10:45:37,680 main Logger - sortMethod = merge
+FILE [INFO ] 2022-02-04 10:45:37,680 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.MergeSort
+FILE [DEBUG] 2022-02-04 10:45:37,681 main Logger - arrayToSort= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,681 main Logger - ints+ [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,681 main Logger - ints.length= 10
+FILE [DEBUG] 2022-02-04 10:45:37,681 main Logger - ints= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,682 main Logger - ints.length= 10
+FILE [DEBUG] 2022-02-04 10:45:37,682 main Logger - division= 5
+FILE [DEBUG] 2022-02-04 10:45:37,682 main Logger - left= [0, 0, 0, 0, 0]
+FILE [DEBUG] 2022-02-04 10:45:37,682 main Logger - right= [0, 0, 0, 0, 0]
+FILE [DEBUG] 2022-02-04 10:45:37,682 main Logger - left= [71, 88, 55, 23, 25]
+FILE [DEBUG] 2022-02-04 10:45:37,683 main Logger - right= [-17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,683 main Logger - ints= [71, 88, 55, 23, 25]
+FILE [DEBUG] 2022-02-04 10:45:37,683 main Logger - ints.length= 5
+FILE [DEBUG] 2022-02-04 10:45:37,683 main Logger - division= 2
+FILE [DEBUG] 2022-02-04 10:45:37,683 main Logger - left= [0, 0]
+FILE [DEBUG] 2022-02-04 10:45:37,683 main Logger - right= [0, 0, 0]
+FILE [DEBUG] 2022-02-04 10:45:37,683 main Logger - left= [71, 88]
+FILE [DEBUG] 2022-02-04 10:45:37,683 main Logger - right= [55, 23, 25]
+FILE [DEBUG] 2022-02-04 10:45:37,683 main Logger - ints= [71, 88]
+FILE [DEBUG] 2022-02-04 10:45:37,683 main Logger - ints.length= 2
+FILE [DEBUG] 2022-02-04 10:45:37,684 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 10:45:37,684 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 10:45:37,684 main Logger - right= [0]
+FILE [DEBUG] 2022-02-04 10:45:37,684 main Logger - left= [71]
+FILE [DEBUG] 2022-02-04 10:45:37,684 main Logger - right= [88]
+FILE [DEBUG] 2022-02-04 10:45:37,684 main Logger - ints= [71]
+FILE [DEBUG] 2022-02-04 10:45:37,684 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 10:45:37,684 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 10:45:37,684 main Logger - ints= [88]
+FILE [DEBUG] 2022-02-04 10:45:37,684 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 10:45:37,685 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 10:45:37,685 main Logger - ints= [71, 88]
+FILE [DEBUG] 2022-02-04 10:45:37,685 main Logger - left= [71]
+FILE [DEBUG] 2022-02-04 10:45:37,685 main Logger - right= [88]
+FILE [DEBUG] 2022-02-04 10:45:37,686 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 10:45:37,686 main Logger - r= 1
+FILE [DEBUG] 2022-02-04 10:45:37,686 main Logger - ints= [71, 88]
+FILE [DEBUG] 2022-02-04 10:45:37,686 main Logger - ints= [55, 23, 25]
+FILE [DEBUG] 2022-02-04 10:45:37,686 main Logger - ints.length= 3
+FILE [DEBUG] 2022-02-04 10:45:37,687 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 10:45:37,687 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 10:45:37,687 main Logger - right= [0, 0]
+FILE [DEBUG] 2022-02-04 10:45:37,687 main Logger - left= [55]
+FILE [DEBUG] 2022-02-04 10:45:37,687 main Logger - right= [23, 25]
+FILE [DEBUG] 2022-02-04 10:45:37,687 main Logger - ints= [55]
+FILE [DEBUG] 2022-02-04 10:45:37,687 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 10:45:37,688 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 10:45:37,688 main Logger - ints= [23, 25]
+FILE [DEBUG] 2022-02-04 10:45:37,688 main Logger - ints.length= 2
+FILE [DEBUG] 2022-02-04 10:45:37,688 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 10:45:37,688 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 10:45:37,688 main Logger - right= [0]
+FILE [DEBUG] 2022-02-04 10:45:37,688 main Logger - left= [23]
+FILE [DEBUG] 2022-02-04 10:45:37,688 main Logger - right= [25]
+FILE [DEBUG] 2022-02-04 10:45:37,689 main Logger - ints= [23]
+FILE [DEBUG] 2022-02-04 10:45:37,689 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 10:45:37,689 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 10:45:37,689 main Logger - ints= [25]
+FILE [DEBUG] 2022-02-04 10:45:37,689 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 10:45:37,689 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 10:45:37,689 main Logger - ints= [23, 25]
+FILE [DEBUG] 2022-02-04 10:45:37,689 main Logger - left= [23]
+FILE [DEBUG] 2022-02-04 10:45:37,689 main Logger - right= [25]
+FILE [DEBUG] 2022-02-04 10:45:37,689 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 10:45:37,690 main Logger - r= 1
+FILE [DEBUG] 2022-02-04 10:45:37,690 main Logger - ints= [23, 25]
+FILE [DEBUG] 2022-02-04 10:45:37,690 main Logger - ints= [55, 23, 25]
+FILE [DEBUG] 2022-02-04 10:45:37,690 main Logger - left= [55]
+FILE [DEBUG] 2022-02-04 10:45:37,690 main Logger - right= [23, 25]
+FILE [DEBUG] 2022-02-04 10:45:37,690 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 10:45:37,690 main Logger - r= 2
+FILE [DEBUG] 2022-02-04 10:45:37,690 main Logger - ints= [23, 25, 55]
+FILE [DEBUG] 2022-02-04 10:45:37,691 main Logger - ints= [71, 88, 55, 23, 25]
+FILE [DEBUG] 2022-02-04 10:45:37,691 main Logger - left= [71, 88]
+FILE [DEBUG] 2022-02-04 10:45:37,691 main Logger - right= [23, 25, 55]
+FILE [DEBUG] 2022-02-04 10:45:37,691 main Logger - l= 2
+FILE [DEBUG] 2022-02-04 10:45:37,691 main Logger - r= 3
+FILE [DEBUG] 2022-02-04 10:45:37,691 main Logger - ints= [23, 25, 55, 71, 88]
+FILE [DEBUG] 2022-02-04 10:45:37,691 main Logger - ints= [-17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,691 main Logger - ints.length= 5
+FILE [DEBUG] 2022-02-04 10:45:37,692 main Logger - division= 2
+FILE [DEBUG] 2022-02-04 10:45:37,692 main Logger - left= [0, 0]
+FILE [DEBUG] 2022-02-04 10:45:37,692 main Logger - right= [0, 0, 0]
+FILE [DEBUG] 2022-02-04 10:45:37,692 main Logger - left= [-17, 21]
+FILE [DEBUG] 2022-02-04 10:45:37,692 main Logger - right= [-64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,693 main Logger - ints= [-17, 21]
+FILE [DEBUG] 2022-02-04 10:45:37,693 main Logger - ints.length= 2
+FILE [DEBUG] 2022-02-04 10:45:37,693 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 10:45:37,693 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 10:45:37,693 main Logger - right= [0]
+FILE [DEBUG] 2022-02-04 10:45:37,694 main Logger - left= [-17]
+FILE [DEBUG] 2022-02-04 10:45:37,694 main Logger - right= [21]
+FILE [DEBUG] 2022-02-04 10:45:37,694 main Logger - ints= [-17]
+FILE [DEBUG] 2022-02-04 10:45:37,694 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 10:45:37,694 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 10:45:37,694 main Logger - ints= [21]
+FILE [DEBUG] 2022-02-04 10:45:37,694 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 10:45:37,694 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 10:45:37,694 main Logger - ints= [-17, 21]
+FILE [DEBUG] 2022-02-04 10:45:37,694 main Logger - left= [-17]
+FILE [DEBUG] 2022-02-04 10:45:37,695 main Logger - right= [21]
+FILE [DEBUG] 2022-02-04 10:45:37,695 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 10:45:37,695 main Logger - r= 1
+FILE [DEBUG] 2022-02-04 10:45:37,695 main Logger - ints= [-17, 21]
+FILE [DEBUG] 2022-02-04 10:45:37,695 main Logger - ints= [-64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,695 main Logger - ints.length= 3
+FILE [DEBUG] 2022-02-04 10:45:37,695 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 10:45:37,695 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 10:45:37,695 main Logger - right= [0, 0]
+FILE [DEBUG] 2022-02-04 10:45:37,695 main Logger - left= [-64]
+FILE [DEBUG] 2022-02-04 10:45:37,695 main Logger - right= [-67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,695 main Logger - ints= [-64]
+FILE [DEBUG] 2022-02-04 10:45:37,696 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 10:45:37,696 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 10:45:37,696 main Logger - ints= [-67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,696 main Logger - ints.length= 2
+FILE [DEBUG] 2022-02-04 10:45:37,696 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 10:45:37,696 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 10:45:37,696 main Logger - right= [0]
+FILE [DEBUG] 2022-02-04 10:45:37,696 main Logger - left= [-67]
+FILE [DEBUG] 2022-02-04 10:45:37,696 main Logger - right= [95]
+FILE [DEBUG] 2022-02-04 10:45:37,696 main Logger - ints= [-67]
+FILE [DEBUG] 2022-02-04 10:45:37,696 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 10:45:37,696 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 10:45:37,697 main Logger - ints= [95]
+FILE [DEBUG] 2022-02-04 10:45:37,697 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 10:45:37,697 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 10:45:37,697 main Logger - ints= [-67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,697 main Logger - left= [-67]
+FILE [DEBUG] 2022-02-04 10:45:37,697 main Logger - right= [95]
+FILE [DEBUG] 2022-02-04 10:45:37,697 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 10:45:37,697 main Logger - r= 1
+FILE [DEBUG] 2022-02-04 10:45:37,697 main Logger - ints= [-67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,697 main Logger - ints= [-64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,697 main Logger - left= [-64]
+FILE [DEBUG] 2022-02-04 10:45:37,697 main Logger - right= [-67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,698 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 10:45:37,698 main Logger - r= 2
+FILE [DEBUG] 2022-02-04 10:45:37,698 main Logger - ints= [-67, -64, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,698 main Logger - ints= [-17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,698 main Logger - left= [-17, 21]
+FILE [DEBUG] 2022-02-04 10:45:37,698 main Logger - right= [-67, -64, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,698 main Logger - l= 2
+FILE [DEBUG] 2022-02-04 10:45:37,698 main Logger - r= 3
+FILE [DEBUG] 2022-02-04 10:45:37,698 main Logger - ints= [-67, -64, -17, 21, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,698 main Logger - ints= [71, 88, 55, 23, 25, -17, 21, -64, -67, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,698 main Logger - left= [23, 25, 55, 71, 88]
+FILE [DEBUG] 2022-02-04 10:45:37,699 main Logger - right= [-67, -64, -17, 21, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,699 main Logger - l= 5
+FILE [DEBUG] 2022-02-04 10:45:37,699 main Logger - r= 5
+FILE [DEBUG] 2022-02-04 10:45:37,699 main Logger - ints= [-67, -64, -17, 21, 23, 25, 55, 71, 88, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,699 main Logger - ints= [-67, -64, -17, 21, 23, 25, 55, 71, 88, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,699 main Logger - arrayToSort= [-67, -64, -17, 21, 23, 25, 55, 71, 88, 95]
+FILE [INFO ] 2022-02-04 10:45:37,699 main Logger - result= [-67, -64, -17, 21, 23, 25, 55, 71, 88, 95]
+FILE [DEBUG] 2022-02-04 10:45:37,700 main Logger - result= [-67, -64, -17, 21, 23, 25, 55, 71, 88, 95]
+FILE [INFO ] 2022-02-04 10:45:37,700 main Logger - Execution time(bubblemerge) in nano seconds:
+11095906000
+Milliseconds:
+11095.906
+Seconds:
+11.095906
+FILE [INFO ] 2022-02-04 13:58:14,602 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 13:58:17,795 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 13:58:17,796 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 13:58:17,796 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 13:58:20,174 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 13:58:20,174 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 13:58:20,174 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 13:58:21,694 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 13:58:21,694 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 13:58:21,695 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 13:58:22,787 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 13:58:22,788 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 13:58:22,788 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 13:58:22,788 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 13:58:22,788 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 13:58:22,789 main Logger - unsortedArray= [41, -74, 79, -27, 90, 11, 54, 58, -24, -56]
+FILE [INFO ] 2022-02-04 13:58:22,789 main Logger - Unsorted array= [41, -74, 79, -27, 90, 11, 54, 58, -24, -56]
+FILE [INFO ] 2022-02-04 14:06:06,800 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:06:11,041 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:06:11,042 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:06:11,042 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:06:13,990 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:06:13,991 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:06:13,991 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:06:15,048 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:06:15,048 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:06:15,049 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:06:16,149 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:06:16,149 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:06:16,150 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:06:16,150 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:06:16,150 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:06:16,151 main Logger - unsortedArray= [-79, -23, -35, -8, -36, -75, 35, 28, 69, -8]
+FILE [INFO ] 2022-02-04 14:06:16,151 main Logger - Unsorted array= [-79, -23, -35, -8, -36, -75, 35, 28, 69, -8]
+FILE [INFO ] 2022-02-04 14:12:50,125 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:12:53,880 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:12:53,880 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:12:53,880 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:12:55,847 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:12:55,848 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:12:55,848 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:12:57,256 main Logger - desiredArraySize= 5
+FILE [DEBUG] 2022-02-04 14:12:57,256 main Logger - desiredArraySize= 5
+FILE [DEBUG] 2022-02-04 14:12:57,257 main Logger - arraySize= 5
+FILE [DEBUG] 2022-02-04 14:12:58,612 main Logger - desiredArrayBounds= 10
+FILE [DEBUG] 2022-02-04 14:12:58,612 main Logger - desiredArrayBounds= 10
+FILE [DEBUG] 2022-02-04 14:12:58,612 main Logger - arrayBounds= 10
+FILE [DEBUG] 2022-02-04 14:12:58,613 main Logger - size= 5
+FILE [DEBUG] 2022-02-04 14:12:58,613 main Logger - bounds= 10
+FILE [DEBUG] 2022-02-04 14:12:58,613 main Logger - unsortedArray= [5, 2, 8, -8, 1]
+FILE [INFO ] 2022-02-04 14:12:58,614 main Logger - Unsorted array= [5, 2, 8, -8, 1]
+FILE [INFO ] 2022-02-04 14:13:33,038 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:13:36,018 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:13:36,018 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:13:36,018 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:13:38,038 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:13:38,039 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:13:38,039 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:13:39,479 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:13:39,479 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:13:39,480 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:13:40,279 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:13:40,279 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:13:40,280 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:13:40,280 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:13:40,280 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:13:40,280 main Logger - unsortedArray= [7, -66, -76, 63, -9, -60, -64, -33, 43, -45]
+FILE [INFO ] 2022-02-04 14:13:40,281 main Logger - Unsorted array= [7, -66, -76, 63, -9, -60, -64, -33, 43, -45]
+FILE [INFO ] 2022-02-04 14:15:40,264 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:15:44,112 main Logger - desiredSortMethod= merge
+FILE [DEBUG] 2022-02-04 14:15:44,112 main Logger - desiredSortMethod= merge
+FILE [DEBUG] 2022-02-04 14:15:44,113 main Logger - desiredSortMethod= merge
+FILE [DEBUG] 2022-02-04 14:15:45,871 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:15:45,872 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:15:45,872 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:15:46,609 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:15:46,610 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:15:46,610 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:15:47,387 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:15:47,387 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:15:47,388 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:15:47,388 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:15:47,388 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:15:47,388 main Logger - unsortedArray= [-90, 67, 13, -42, 46, 47, -41, -12, 56, -40]
+FILE [INFO ] 2022-02-04 14:15:47,389 main Logger - Unsorted array= [-90, 67, 13, -42, 46, 47, -41, -12, 56, -40]
+FILE [INFO ] 2022-02-04 14:15:57,790 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:16:02,827 main Logger - desiredSortMethod= bubblemerge
+FILE [DEBUG] 2022-02-04 14:16:02,827 main Logger - desiredSortMethod= bubblemerge
+FILE [DEBUG] 2022-02-04 14:16:02,827 main Logger - desiredSortMethod= bubblemerge
+FILE [DEBUG] 2022-02-04 14:16:04,853 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:16:04,854 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:16:04,854 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:16:06,029 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:16:06,030 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:16:06,030 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:16:06,817 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:16:06,817 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:16:06,817 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:16:06,818 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:16:06,818 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:16:06,818 main Logger - unsortedArray= [-45, -38, -63, -29, -54, 16, -1, -97, 58, -66]
+FILE [INFO ] 2022-02-04 14:16:06,818 main Logger - Unsorted array= [-45, -38, -63, -29, -54, 16, -1, -97, 58, -66]
+FILE [INFO ] 2022-02-04 14:18:38,253 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:18:40,535 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:18:40,535 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:18:40,536 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:18:41,869 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:18:41,869 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:18:41,869 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:18:43,108 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:18:43,108 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:18:43,109 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:18:43,895 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:18:43,896 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:18:43,896 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:18:43,896 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:18:43,897 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:18:43,898 main Logger - unsortedArray= [-62, -88, 55, -99, 1, 58, -90, 85, 44, -11]
+FILE [INFO ] 2022-02-04 14:18:43,898 main Logger - Unsorted array= [-62, -88, 55, -99, 1, 58, -90, 85, 44, -11]
+FILE [INFO ] 2022-02-04 14:21:01,167 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:21:04,256 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:21:04,257 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:21:04,257 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:21:05,855 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:21:05,856 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:21:05,856 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:21:06,911 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:21:06,911 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:21:06,911 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:21:07,769 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:21:07,770 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:21:07,770 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:21:07,771 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:21:07,771 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:21:07,771 main Logger - unsortedArray= [-2, -7, -59, 52, -45, 94, -40, -43, -23, -26]
+FILE [INFO ] 2022-02-04 14:21:07,771 main Logger - Unsorted array= [-2, -7, -59, 52, -45, 94, -40, -43, -23, -26]
+FILE [INFO ] 2022-02-04 14:24:09,616 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:24:13,726 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:24:13,727 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:24:13,727 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:24:15,521 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:24:15,521 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:24:15,521 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:24:16,517 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:24:16,517 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:24:16,518 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:24:17,259 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:24:17,259 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:24:17,259 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:24:17,260 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:24:17,260 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:24:17,260 main Logger - unsortedArray= [-13, -44, -51, -35, -85, 73, -55, -67, -81, 54]
+FILE [INFO ] 2022-02-04 14:24:17,260 main Logger - Unsorted array= [-13, -44, -51, -35, -85, 73, -55, -67, -81, 54]
+FILE [INFO ] 2022-02-04 14:32:23,935 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:32:34,170 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:32:34,170 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:32:34,171 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:32:36,078 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:32:36,078 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:32:36,079 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:32:37,424 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:32:37,424 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:32:37,425 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:32:38,435 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:32:38,436 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:32:38,436 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:32:38,437 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:32:38,437 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:32:38,437 main Logger - unsortedArray= [22, 0, -56, 74, 71, -21, -51, 31, 8, -77]
+FILE [INFO ] 2022-02-04 14:32:38,438 main Logger - Unsorted array= [22, 0, -56, 74, 71, -21, -51, 31, 8, -77]
+FILE [INFO ] 2022-02-04 14:34:24,510 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:34:26,596 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:34:26,596 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:34:26,596 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:34:28,324 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:34:28,324 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:34:28,325 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:34:30,127 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:34:30,128 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:34:30,128 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:34:31,181 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:34:31,181 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:34:31,182 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:34:31,182 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:34:31,182 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:34:31,182 main Logger - unsortedArray= [95, 72, 8, -84, -100, -65, 20, -35, -15, -24]
+FILE [INFO ] 2022-02-04 14:34:31,183 main Logger - Unsorted array= [95, 72, 8, -84, -100, -65, 20, -35, -15, -24]
+FILE [INFO ] 2022-02-04 14:40:10,929 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:40:13,232 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:40:13,232 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:40:13,233 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:40:19,526 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:40:19,526 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:40:19,526 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:40:20,643 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:40:20,643 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:40:20,643 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:40:21,469 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:40:21,470 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:40:21,471 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:40:21,471 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:40:21,472 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:40:21,473 main Logger - unsortedArray= [41, -2, -31, 53, -69, 65, -99, 45, 5, 6]
+FILE [INFO ] 2022-02-04 14:40:21,473 main Logger - Unsorted array= [41, -2, -31, 53, -69, 65, -99, 45, 5, 6]
+FILE [INFO ] 2022-02-04 14:41:11,029 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:41:13,627 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:41:13,628 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:41:13,628 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:41:15,430 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:41:15,430 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:41:15,431 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:41:16,346 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:41:16,347 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:41:16,347 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:41:17,089 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:41:17,089 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:41:17,089 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:41:17,090 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:41:17,090 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:41:17,090 main Logger - unsortedArray= [38, -34, 63, -55, 62, -16, 72, 99, 34, 100]
+FILE [INFO ] 2022-02-04 14:41:17,091 main Logger - Unsorted array= [38, -34, 63, -55, 62, -16, 72, 99, 34, 100]
+FILE [INFO ] 2022-02-04 14:41:51,711 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:41:54,944 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:41:54,944 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:41:54,944 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:41:56,856 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:41:56,856 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:41:56,856 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:41:57,633 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:41:57,633 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:41:57,634 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:41:58,477 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:41:58,477 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:41:58,478 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:41:58,478 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:41:58,478 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:41:58,479 main Logger - unsortedArray= [33, 8, 89, 12, 78, 76, -72, 22, 65, -14]
+FILE [INFO ] 2022-02-04 14:41:58,479 main Logger - Unsorted array= [33, 8, 89, 12, 78, 76, -72, 22, 65, -14]
+FILE [DEBUG] 2022-02-04 14:41:58,480 main Logger - ?null
+FILE [INFO ] 2022-02-04 14:43:03,557 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:43:11,449 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:43:11,450 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:43:11,450 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:43:13,566 main Logger - desiredArrayType=custom
+FILE [DEBUG] 2022-02-04 14:43:13,566 main Logger - desiredArrayType=custom
+FILE [DEBUG] 2022-02-04 14:43:13,566 main Logger - desiredArrayType= custom
+FILE [DEBUG] 2022-02-04 14:43:16,774 main Logger - desiredArraySize= 4
+FILE [DEBUG] 2022-02-04 14:43:16,774 main Logger - desiredArraySize= 4
+FILE [DEBUG] 2022-02-04 14:43:16,775 main Logger - arraySize= 4
+FILE [DEBUG] 2022-02-04 14:43:16,775 main Logger - size= 4
+FILE [DEBUG] 2022-02-04 14:43:19,661 main Logger - unsortedArray= [1, 2, 3, 4]
+FILE [INFO ] 2022-02-04 14:43:19,662 main Logger - Unsorted array= [1, 2, 3, 4]
+FILE [DEBUG] 2022-02-04 14:43:19,662 main Logger - ?null
+FILE [INFO ] 2022-02-04 14:46:13,948 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:46:17,240 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:46:17,241 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:46:17,241 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:46:19,700 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:46:19,700 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:46:19,700 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:46:20,733 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:46:20,734 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:46:20,735 main Logger - garraySize= 10
+FILE [DEBUG] 2022-02-04 14:46:21,590 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:46:21,590 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:46:21,591 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:46:21,591 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:46:21,591 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:46:21,592 main Logger - unsortedArray= [5, -61, -39, -38, 34, 54, 56, 69, 9, 4]
+FILE [INFO ] 2022-02-04 14:46:21,592 main Logger - Unsorted array= [5, -61, -39, -38, 34, 54, 56, 69, 9, 4]
+FILE [DEBUG] 2022-02-04 14:46:21,592 main Logger - ?null
+FILE [INFO ] 2022-02-04 14:48:36,022 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:48:39,456 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:48:39,457 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:48:39,457 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:48:41,181 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:48:41,182 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:48:41,182 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:48:42,313 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:48:42,313 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:48:42,314 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:48:43,219 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:48:43,219 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:48:43,219 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:48:43,220 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:48:43,220 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:48:43,221 main Logger - unsortedArray= [8, -66, -11, -5, -50, 72, -76, 8, 73, -89]
+FILE [INFO ] 2022-02-04 14:48:43,221 main Logger - Unsorted array= [8, -66, -11, -5, -50, 72, -76, 8, 73, -89]
+FILE [DEBUG] 2022-02-04 14:48:43,221 main Logger - ?null
+FILE [INFO ] 2022-02-04 14:51:14,049 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:51:16,656 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:51:16,656 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:51:16,657 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:51:39,544 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:51:39,544 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:51:39,545 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:51:40,657 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:51:40,657 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:51:40,657 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:51:41,570 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:51:41,570 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:51:41,571 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:51:41,571 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:51:41,572 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:51:41,572 main Logger - unsortedArray= [-71, -76, 40, 0, -85, 43, 85, 21, -50, -71]
+FILE [INFO ] 2022-02-04 14:51:41,573 main Logger - Unsorted array= [-71, -76, 40, 0, -85, 43, 85, 21, -50, -71]
+FILE [INFO ] 2022-02-04 14:52:37,084 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:52:39,675 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:52:39,675 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:52:39,675 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:52:41,288 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:52:41,288 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:52:41,288 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:52:42,502 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:52:42,502 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:52:42,502 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:52:43,329 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:52:43,329 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:52:43,329 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:52:43,329 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:52:43,330 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:52:43,330 main Logger - unsortedArray= [-24, -25, 36, -7, 5, -62, 77, -44, -60, 94]
+FILE [INFO ] 2022-02-04 14:52:43,330 main Logger - Unsorted array= [-24, -25, 36, -7, 5, -62, 77, -44, -60, 94]
+FILE [INFO ] 2022-02-04 14:54:16,960 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:54:24,859 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:54:24,859 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:54:24,860 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:54:25,982 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:54:25,982 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:54:25,982 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:54:27,006 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:54:27,007 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:54:27,007 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:54:28,018 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:54:28,019 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:54:28,019 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:54:28,020 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:54:28,020 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:54:28,020 main Logger - unsortedArray= [9, 40, -30, 11, -78, -91, -38, 35, -47, 99]
+FILE [INFO ] 2022-02-04 14:54:28,020 main Logger - Unsorted array= [9, 40, -30, 11, -78, -91, -38, 35, -47, 99]
+FILE [INFO ] 2022-02-04 14:56:59,732 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:57:12,243 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:57:12,244 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:57:12,244 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:57:14,452 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:57:14,453 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:57:14,453 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:57:15,756 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:57:15,757 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:57:15,757 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:57:16,632 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:57:16,632 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:57:16,632 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:57:16,633 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:57:16,633 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:57:16,633 main Logger - unsortedArray= [93, -47, -53, -77, 57, 70, 19, 47, 25, 56]
+FILE [INFO ] 2022-02-04 14:57:16,633 main Logger - Unsorted array= [93, -47, -53, -77, 57, 70, 19, 47, 25, 56]
+FILE [INFO ] 2022-02-04 14:58:50,173 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 14:58:52,617 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:58:52,618 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:58:52,618 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 14:58:54,237 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:58:54,238 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 14:58:54,238 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 14:58:54,970 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:58:54,971 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 14:58:54,971 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 14:58:55,744 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:58:55,745 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:58:55,745 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 14:58:55,745 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 14:58:55,745 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 14:58:55,746 main Logger - arrrrrrrrr= [93, -28, 36, -69, -64, 52, -49, -58, -93, 62]
+FILE [DEBUG] 2022-02-04 14:58:55,746 main Logger - unsortedArray= [93, -28, 36, -69, -64, 52, -49, -58, -93, 62]
+FILE [INFO ] 2022-02-04 14:58:55,746 main Logger - Unsorted array= [93, -28, 36, -69, -64, 52, -49, -58, -93, 62]
+FILE [INFO ] 2022-02-04 15:00:57,829 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:00:59,933 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:00:59,933 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:00:59,934 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:01:01,278 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:01:01,278 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:01:01,279 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:01:01,999 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:01:01,999 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:01:01,999 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:01:02,953 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:01:02,954 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:01:02,954 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:01:02,954 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:01:02,955 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:01:02,955 main Logger - unsortedArray= [47, -1, -14, 88, -29, -75, -38, 76, 39, -27]
+FILE [INFO ] 2022-02-04 15:01:02,955 main Logger - Unsorted array= [47, -1, -14, 88, -29, -75, -38, 76, 39, -27]
+FILE [INFO ] 2022-02-04 15:04:47,690 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:04:49,788 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:04:49,788 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:04:49,789 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:04:51,350 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:04:51,350 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:04:51,351 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:04:52,298 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:04:52,298 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:04:52,299 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:04:53,196 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:04:53,196 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:04:53,196 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:04:53,196 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:04:53,196 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:04:53,196 main Logger - unsortedArray= [-89, -81, 85, -83, 14, -19, -81, -55, 25, -91]
+FILE [INFO ] 2022-02-04 15:04:53,196 main Logger - Unsorted array= [-89, -81, 85, -83, 14, -19, -81, -55, 25, -91]
+FILE [INFO ] 2022-02-04 15:08:33,284 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:08:35,760 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:08:35,761 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:08:35,761 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:08:37,226 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:08:37,227 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:08:37,227 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:08:37,952 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:08:37,953 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:08:37,953 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:08:38,759 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:08:38,759 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:08:38,759 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:08:38,760 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:08:38,760 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:08:38,760 main Logger - unsortedArray= [22, 92, 45, 47, -23, -67, 77, 30, 85, 96]
+FILE [INFO ] 2022-02-04 15:08:38,760 main Logger - Unsorted array= [22, 92, 45, 47, -23, -67, 77, 30, 85, 96]
+FILE [INFO ] 2022-02-04 15:08:38,761 main Logger - desiredSortMethod= bubble
+FILE [INFO ] 2022-02-04 15:08:38,761 main Logger - unsortedArray= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:08:38,761 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-04 15:08:38,777 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-04 15:08:38,777 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BubbleSort
+FILE [DEBUG] 2022-02-04 15:08:38,777 main Logger - arrayToSort= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:08:38,778 main Logger - array= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:08:38,778 main Logger - array= [-7, 1, 3, 5]
+FILE [DEBUG] 2022-02-04 15:08:38,778 main Logger - arrayToSort= [-7, 1, 3, 5]
+FILE [INFO ] 2022-02-04 15:08:38,792 main Logger - Execution time(bubble) in nano seconds:
+16819500
+Milliseconds:
+16.8195
+Seconds:
+0.0168195
+FILE [DEBUG] 2022-02-04 15:08:38,792 main Logger - result= [-7, 1, 3, 5]
+FILE [INFO ] 2022-02-04 15:08:48,824 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:08:51,731 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:08:51,731 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:08:51,732 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:08:53,824 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:08:53,824 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:08:53,825 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:08:54,772 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:08:54,773 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:08:54,773 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:08:55,826 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:08:55,827 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:08:55,827 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:08:55,827 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:08:55,827 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:08:55,828 main Logger - unsortedArray= [24, -58, -1, 31, -20, -3, -86, -12, -82, 46]
+FILE [INFO ] 2022-02-04 15:08:55,828 main Logger - Unsorted array= [24, -58, -1, 31, -20, -3, -86, -12, -82, 46]
+FILE [INFO ] 2022-02-04 15:08:55,828 main Logger - desiredSortMethod= bubble
+FILE [INFO ] 2022-02-04 15:08:55,828 main Logger - unsortedArray= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:08:55,829 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-04 15:08:55,831 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-04 15:08:55,831 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BubbleSort
+FILE [DEBUG] 2022-02-04 15:08:55,831 main Logger - arrayToSort= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:08:55,831 main Logger - array= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:08:55,832 main Logger - array= [-7, 1, 3, 5]
+FILE [DEBUG] 2022-02-04 15:08:55,832 main Logger - arrayToSort= [-7, 1, 3, 5]
+FILE [INFO ] 2022-02-04 15:08:55,848 main Logger - Execution time(bubble) in nano seconds:
+3818700
+Milliseconds:
+3.8187
+Seconds:
+0.0038187
+FILE [DEBUG] 2022-02-04 15:08:55,849 main Logger - result= [-7, 1, 3, 5]
+FILE [INFO ] 2022-02-04 15:10:17,544 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:10:20,220 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:10:20,220 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:10:20,220 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:10:21,444 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:10:21,444 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:10:21,445 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:10:23,521 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:10:23,521 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:10:23,521 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:10:24,703 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:10:24,703 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:10:24,703 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:10:24,704 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:10:24,704 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:10:24,704 main Logger - unsortedArray= [48, -41, 22, 85, -5, 85, 60, 84, 100, 65]
+FILE [INFO ] 2022-02-04 15:10:24,704 main Logger - Unsorted array= [48, -41, 22, 85, -5, 85, 60, 84, 100, 65]
+FILE [INFO ] 2022-02-04 15:10:24,705 main Logger - desiredSortMethod= bubble
+FILE [INFO ] 2022-02-04 15:10:24,705 main Logger - unsortedArray= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:10:24,705 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-04 15:10:24,707 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-04 15:10:24,707 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BubbleSort
+FILE [DEBUG] 2022-02-04 15:10:24,707 main Logger - arrayToSort= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:10:24,708 main Logger - array= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:10:24,708 main Logger - array= [-7, 1, 3, 5]
+FILE [DEBUG] 2022-02-04 15:10:24,708 main Logger - arrayToSort= [-7, 1, 3, 5]
+FILE [INFO ] 2022-02-04 15:10:24,722 main Logger - Execution time(bubble) in nano seconds:
+3636300
+Milliseconds:
+3.6363
+Seconds:
+0.0036363
+FILE [DEBUG] 2022-02-04 15:10:24,722 main Logger - result= [-7, 1, 3, 5]
+FILE [INFO ] 2022-02-04 15:11:11,249 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:11:13,268 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:11:13,268 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:11:13,269 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:11:15,069 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:11:15,069 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:11:15,070 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:11:16,261 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:11:16,261 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:11:16,262 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:11:17,385 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:11:17,385 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:11:17,386 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:11:17,386 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:11:17,386 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:11:17,386 main Logger - unsortedArray= [57, 47, 36, -90, -40, -45, -42, -4, 85, 66]
+FILE [INFO ] 2022-02-04 15:11:17,387 main Logger - Unsorted array= [57, 47, 36, -90, -40, -45, -42, -4, 85, 66]
+FILE [INFO ] 2022-02-04 15:13:17,787 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:13:20,408 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:13:20,408 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:13:20,409 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:13:21,694 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:13:21,694 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:13:21,695 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:13:22,489 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:13:22,489 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:13:22,490 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:13:23,249 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:13:23,249 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:13:23,250 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:13:23,250 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:13:23,250 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:13:23,250 main Logger - unsortedArray= [-95, 6, -9, 44, -50, 53, -83, -92, -48, -1]
+FILE [INFO ] 2022-02-04 15:13:23,251 main Logger - Unsorted array= [-95, 6, -9, 44, -50, 53, -83, -92, -48, -1]
+FILE [INFO ] 2022-02-04 15:17:35,141 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:17:37,493 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:17:37,494 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:17:37,494 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:17:39,121 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:17:39,122 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:17:39,122 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:17:40,125 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:17:40,125 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:17:40,126 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:17:41,046 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:17:41,046 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:17:41,046 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:17:41,047 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:17:41,047 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:17:41,047 main Logger - unsortedArray= [96, 83, -47, 62, 32, 20, -65, 87, -4, 30]
+FILE [INFO ] 2022-02-04 15:17:41,047 main Logger - Unsorted array= [96, 83, -47, 62, 32, 20, -65, 87, -4, 30]
+FILE [INFO ] 2022-02-04 15:17:41,048 main Logger - desiredSortMethod= bubble
+FILE [INFO ] 2022-02-04 15:17:41,048 main Logger - array= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:17:41,048 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-04 15:17:41,050 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-04 15:17:41,050 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BubbleSort
+FILE [DEBUG] 2022-02-04 15:17:41,050 main Logger - arrayToSort= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:17:41,051 main Logger - array= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:17:41,051 main Logger - array= [-7, 1, 3, 5]
+FILE [DEBUG] 2022-02-04 15:17:41,051 main Logger - arrayToSort= [-7, 1, 3, 5]
+FILE [INFO ] 2022-02-04 15:17:41,065 main Logger - Execution time(bubble) in nano seconds:
+3444700
+Milliseconds:
+3.4447
+Seconds:
+0.0034447
+FILE [DEBUG] 2022-02-04 15:17:41,065 main Logger - result= [-7, 1, 3, 5]
+FILE [INFO ] 2022-02-04 15:18:05,415 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:18:07,571 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:18:07,571 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:18:07,572 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:18:09,152 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:18:09,152 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:18:09,152 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:18:10,108 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:18:10,108 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:18:10,109 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:18:10,977 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:18:10,977 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:18:10,977 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:18:10,978 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:18:10,978 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:18:10,978 main Logger - unsortedArray= [12, -3, 57, 55, 98, 98, -4, 29, 50, 40]
+FILE [INFO ] 2022-02-04 15:18:10,978 main Logger - Unsorted array= [12, -3, 57, 55, 98, 98, -4, 29, 50, 40]
+FILE [INFO ] 2022-02-04 15:18:10,979 main Logger - desiredSortMethod= bubble
+FILE [INFO ] 2022-02-04 15:18:10,979 main Logger - array= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:18:10,979 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-04 15:18:10,982 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-04 15:18:10,982 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BubbleSort
+FILE [DEBUG] 2022-02-04 15:18:10,982 main Logger - arrayToSort= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:18:10,982 main Logger - array= [1, 5, 3, -7]
+FILE [DEBUG] 2022-02-04 15:18:10,983 main Logger - array= [-7, 1, 3, 5]
+FILE [DEBUG] 2022-02-04 15:18:10,983 main Logger - arrayToSort= [-7, 1, 3, 5]
+FILE [INFO ] 2022-02-04 15:18:10,996 main Logger - Execution time(bubble) in nano seconds:
+3562700
+Milliseconds:
+3.5627
+Seconds:
+0.0035627
+FILE [DEBUG] 2022-02-04 15:18:10,997 main Logger - result= [-7, 1, 3, 5]
+FILE [INFO ] 2022-02-04 15:27:30,742 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:27:34,489 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:27:34,489 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:27:34,489 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:27:36,042 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:27:36,043 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:27:36,043 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:27:36,902 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:27:36,903 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:27:36,903 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:27:37,817 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:27:37,817 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:27:37,818 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:27:37,818 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:27:37,818 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:27:37,818 main Logger - unsortedArray= [58, 68, -40, 84, -51, -65, -61, -57, 73, 72]
+FILE [INFO ] 2022-02-04 15:27:37,819 main Logger - Unsorted array= [58, 68, -40, 84, -51, -65, -61, -57, 73, 72]
+FILE [DEBUG] 2022-02-04 15:27:37,819 main Logger - ?[I@72cde7cc
+FILE [INFO ] 2022-02-04 15:27:37,819 main Logger - desiredSortMethod= bubble
+FILE [INFO ] 2022-02-04 15:27:37,819 main Logger - array= [58, 68, -40, 84, -51, -65, -61, -57, 73, 72]
+FILE [DEBUG] 2022-02-04 15:27:37,820 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-04 15:27:37,821 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-04 15:27:37,821 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BubbleSort
+FILE [DEBUG] 2022-02-04 15:27:37,821 main Logger - arrayToSort= [58, 68, -40, 84, -51, -65, -61, -57, 73, 72]
+FILE [DEBUG] 2022-02-04 15:27:37,821 main Logger - array= [58, 68, -40, 84, -51, -65, -61, -57, 73, 72]
+FILE [DEBUG] 2022-02-04 15:27:37,821 main Logger - array= [-65, -61, -57, -51, -40, 58, 68, 72, 73, 84]
+FILE [DEBUG] 2022-02-04 15:27:37,822 main Logger - arrayToSort= [-65, -61, -57, -51, -40, 58, 68, 72, 73, 84]
+FILE [INFO ] 2022-02-04 15:27:37,832 main Logger - Execution time(bubble) in nano seconds:
+2730800
+Milliseconds:
+2.7308
+Seconds:
+0.0027308
+FILE [DEBUG] 2022-02-04 15:27:37,832 main Logger - result= [-65, -61, -57, -51, -40, 58, 68, 72, 73, 84]
+FILE [INFO ] 2022-02-04 15:29:24,053 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:29:26,309 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:29:26,309 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:29:26,309 main Logger - desiredSortMethod= bubble
+FILE [DEBUG] 2022-02-04 15:29:27,791 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:29:27,792 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:29:27,792 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:29:28,608 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:29:28,608 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:29:28,609 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:29:29,584 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:29:29,585 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:29:29,585 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:29:29,585 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:29:29,585 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:29:29,585 main Logger - unsortedArray= [-1, 82, 8, -69, 41, 47, 95, -23, -66, -53]
+FILE [INFO ] 2022-02-04 15:29:29,586 main Logger - Unsorted array= [-1, 82, 8, -69, 41, 47, 95, -23, -66, -53]
+FILE [DEBUG] 2022-02-04 15:29:29,586 main Logger - ?[I@72cde7cc
+FILE [INFO ] 2022-02-04 15:29:29,586 main Logger - desiredSortMethod= bubble
+FILE [INFO ] 2022-02-04 15:29:29,586 main Logger - array= [-1, 82, 8, -69, 41, 47, 95, -23, -66, -53]
+FILE [DEBUG] 2022-02-04 15:29:29,587 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-04 15:29:29,588 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-04 15:29:29,588 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BubbleSort
+FILE [DEBUG] 2022-02-04 15:29:29,588 main Logger - arrayToSort= [-1, 82, 8, -69, 41, 47, 95, -23, -66, -53]
+FILE [DEBUG] 2022-02-04 15:29:29,589 main Logger - array= [-1, 82, 8, -69, 41, 47, 95, -23, -66, -53]
+FILE [DEBUG] 2022-02-04 15:29:29,589 main Logger - array= [-69, -66, -53, -23, -1, 8, 41, 47, 82, 95]
+FILE [DEBUG] 2022-02-04 15:29:29,589 main Logger - arrayToSort= [-69, -66, -53, -23, -1, 8, 41, 47, 82, 95]
+FILE [INFO ] 2022-02-04 15:29:29,599 main Logger - Execution time(bubble) in nano seconds:
+2866700
+Milliseconds:
+2.8667
+Seconds:
+0.0028667
+FILE [DEBUG] 2022-02-04 15:29:29,599 main Logger - result= [-69, -66, -53, -23, -1, 8, 41, 47, 82, 95]
+FILE [INFO ] 2022-02-04 15:30:11,181 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:30:14,723 main Logger - desiredSortMethod= bubblemerge
+FILE [DEBUG] 2022-02-04 15:30:14,723 main Logger - desiredSortMethod= bubblemerge
+FILE [DEBUG] 2022-02-04 15:30:14,723 main Logger - desiredSortMethod= bubblemerge
+FILE [DEBUG] 2022-02-04 15:30:16,288 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:30:16,288 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:30:16,289 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:30:17,295 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:30:17,296 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:30:17,296 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:30:18,175 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:30:18,175 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:30:18,175 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:30:18,176 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:30:18,176 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:30:18,176 main Logger - unsortedArray= [-76, -52, -67, -27, 62, -95, -41, 87, -11, -94]
+FILE [INFO ] 2022-02-04 15:30:18,176 main Logger - Unsorted array= [-76, -52, -67, -27, 62, -95, -41, 87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,177 main Logger - ?[I@72cde7cc
+FILE [INFO ] 2022-02-04 15:30:18,177 main Logger - desiredSortMethod= bubble
+FILE [INFO ] 2022-02-04 15:30:18,177 main Logger - array= [-76, -52, -67, -27, 62, -95, -41, 87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,177 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-04 15:30:18,179 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-04 15:30:18,179 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BubbleSort
+FILE [DEBUG] 2022-02-04 15:30:18,179 main Logger - arrayToSort= [-76, -52, -67, -27, 62, -95, -41, 87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,179 main Logger - array= [-76, -52, -67, -27, 62, -95, -41, 87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,179 main Logger - array= [-95, -94, -76, -67, -52, -41, -27, -11, 62, 87]
+FILE [DEBUG] 2022-02-04 15:30:18,179 main Logger - arrayToSort= [-95, -94, -76, -67, -52, -41, -27, -11, 62, 87]
+FILE [INFO ] 2022-02-04 15:30:18,190 main Logger - Execution time(bubblemerge) in nano seconds:
+2570500
+Milliseconds:
+2.5705
+Seconds:
+0.0025705
+FILE [DEBUG] 2022-02-04 15:30:18,190 main Logger - result= [-95, -94, -76, -67, -52, -41, -27, -11, 62, 87]
+FILE [INFO ] 2022-02-04 15:30:18,191 main Logger - desiredSortMethod= merge
+FILE [INFO ] 2022-02-04 15:30:18,191 main Logger - array= [-76, -52, -67, -27, 62, -95, -41, 87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,191 main Logger - sortMethod = merge
+FILE [DEBUG] 2022-02-04 15:30:18,192 main Logger - sortMethod = merge
+FILE [INFO ] 2022-02-04 15:30:18,193 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.MergeSort
+FILE [DEBUG] 2022-02-04 15:30:18,193 main Logger - arrayToSort= [-76, -52, -67, -27, 62, -95, -41, 87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,193 main Logger - ints+ [-76, -52, -67, -27, 62, -95, -41, 87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,193 main Logger - ints.length= 10
+FILE [DEBUG] 2022-02-04 15:30:18,193 main Logger - ints= [-76, -52, -67, -27, 62, -95, -41, 87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,193 main Logger - ints.length= 10
+FILE [DEBUG] 2022-02-04 15:30:18,194 main Logger - division= 5
+FILE [DEBUG] 2022-02-04 15:30:18,194 main Logger - left= [0, 0, 0, 0, 0]
+FILE [DEBUG] 2022-02-04 15:30:18,194 main Logger - right= [0, 0, 0, 0, 0]
+FILE [DEBUG] 2022-02-04 15:30:18,194 main Logger - left= [-76, -52, -67, -27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,194 main Logger - right= [-95, -41, 87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,194 main Logger - ints= [-76, -52, -67, -27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,194 main Logger - ints.length= 5
+FILE [DEBUG] 2022-02-04 15:30:18,194 main Logger - division= 2
+FILE [DEBUG] 2022-02-04 15:30:18,195 main Logger - left= [0, 0]
+FILE [DEBUG] 2022-02-04 15:30:18,195 main Logger - right= [0, 0, 0]
+FILE [DEBUG] 2022-02-04 15:30:18,195 main Logger - left= [-76, -52]
+FILE [DEBUG] 2022-02-04 15:30:18,195 main Logger - right= [-67, -27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,195 main Logger - ints= [-76, -52]
+FILE [DEBUG] 2022-02-04 15:30:18,195 main Logger - ints.length= 2
+FILE [DEBUG] 2022-02-04 15:30:18,195 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 15:30:18,195 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 15:30:18,195 main Logger - right= [0]
+FILE [DEBUG] 2022-02-04 15:30:18,195 main Logger - left= [-76]
+FILE [DEBUG] 2022-02-04 15:30:18,195 main Logger - right= [-52]
+FILE [DEBUG] 2022-02-04 15:30:18,195 main Logger - ints= [-76]
+FILE [DEBUG] 2022-02-04 15:30:18,196 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:30:18,196 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:30:18,196 main Logger - ints= [-52]
+FILE [DEBUG] 2022-02-04 15:30:18,196 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:30:18,196 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:30:18,196 main Logger - ints= [-76, -52]
+FILE [DEBUG] 2022-02-04 15:30:18,196 main Logger - left= [-76]
+FILE [DEBUG] 2022-02-04 15:30:18,196 main Logger - right= [-52]
+FILE [DEBUG] 2022-02-04 15:30:18,196 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 15:30:18,197 main Logger - r= 1
+FILE [DEBUG] 2022-02-04 15:30:18,197 main Logger - ints= [-76, -52]
+FILE [DEBUG] 2022-02-04 15:30:18,197 main Logger - ints= [-67, -27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,197 main Logger - ints.length= 3
+FILE [DEBUG] 2022-02-04 15:30:18,197 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 15:30:18,197 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 15:30:18,197 main Logger - right= [0, 0]
+FILE [DEBUG] 2022-02-04 15:30:18,197 main Logger - left= [-67]
+FILE [DEBUG] 2022-02-04 15:30:18,197 main Logger - right= [-27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,197 main Logger - ints= [-67]
+FILE [DEBUG] 2022-02-04 15:30:18,197 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:30:18,197 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:30:18,197 main Logger - ints= [-27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,197 main Logger - ints.length= 2
+FILE [DEBUG] 2022-02-04 15:30:18,198 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 15:30:18,198 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 15:30:18,198 main Logger - right= [0]
+FILE [DEBUG] 2022-02-04 15:30:18,198 main Logger - left= [-27]
+FILE [DEBUG] 2022-02-04 15:30:18,198 main Logger - right= [62]
+FILE [DEBUG] 2022-02-04 15:30:18,198 main Logger - ints= [-27]
+FILE [DEBUG] 2022-02-04 15:30:18,198 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:30:18,198 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:30:18,198 main Logger - ints= [62]
+FILE [DEBUG] 2022-02-04 15:30:18,198 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:30:18,198 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:30:18,198 main Logger - ints= [-27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,198 main Logger - left= [-27]
+FILE [DEBUG] 2022-02-04 15:30:18,198 main Logger - right= [62]
+FILE [DEBUG] 2022-02-04 15:30:18,198 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 15:30:18,199 main Logger - r= 1
+FILE [DEBUG] 2022-02-04 15:30:18,199 main Logger - ints= [-27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,199 main Logger - ints= [-67, -27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,199 main Logger - left= [-67]
+FILE [DEBUG] 2022-02-04 15:30:18,199 main Logger - right= [-27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,199 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 15:30:18,199 main Logger - r= 2
+FILE [DEBUG] 2022-02-04 15:30:18,199 main Logger - ints= [-67, -27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,199 main Logger - ints= [-76, -52, -67, -27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,199 main Logger - left= [-76, -52]
+FILE [DEBUG] 2022-02-04 15:30:18,199 main Logger - right= [-67, -27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,199 main Logger - l= 2
+FILE [DEBUG] 2022-02-04 15:30:18,199 main Logger - r= 3
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - ints= [-76, -67, -52, -27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - ints= [-95, -41, 87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - ints.length= 5
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - division= 2
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - left= [0, 0]
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - right= [0, 0, 0]
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - left= [-95, -41]
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - right= [87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - ints= [-95, -41]
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - ints.length= 2
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - right= [0]
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - left= [-95]
+FILE [DEBUG] 2022-02-04 15:30:18,200 main Logger - right= [-41]
+FILE [DEBUG] 2022-02-04 15:30:18,201 main Logger - ints= [-95]
+FILE [DEBUG] 2022-02-04 15:30:18,201 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:30:18,201 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:30:18,201 main Logger - ints= [-41]
+FILE [DEBUG] 2022-02-04 15:30:18,201 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:30:18,201 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:30:18,201 main Logger - ints= [-95, -41]
+FILE [DEBUG] 2022-02-04 15:30:18,201 main Logger - left= [-95]
+FILE [DEBUG] 2022-02-04 15:30:18,201 main Logger - right= [-41]
+FILE [DEBUG] 2022-02-04 15:30:18,201 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 15:30:18,201 main Logger - r= 1
+FILE [DEBUG] 2022-02-04 15:30:18,201 main Logger - ints= [-95, -41]
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - ints= [87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - ints.length= 3
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - right= [0, 0]
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - left= [87]
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - right= [-11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - ints= [87]
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:30:18,202 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - ints= [-11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - ints.length= 2
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 15:30:18,202 main Logger - right= [0]
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - left= [-11]
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - right= [-94]
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - ints= [-11]
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:30:18,203 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - ints= [-94]
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:30:18,203 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - ints= [-11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - left= [-11]
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - right= [-94]
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - r= 1
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - ints= [-94, -11]
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - ints= [87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,203 main Logger - left= [87]
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - right= [-94, -11]
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - r= 2
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - ints= [-94, -11, 87]
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - ints= [-95, -41, 87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - left= [-95, -41]
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - right= [-94, -11, 87]
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - l= 2
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - r= 3
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - ints= [-95, -94, -41, -11, 87]
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - ints= [-76, -52, -67, -27, 62, -95, -41, 87, -11, -94]
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - left= [-76, -67, -52, -27, 62]
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - right= [-95, -94, -41, -11, 87]
+FILE [DEBUG] 2022-02-04 15:30:18,204 main Logger - l= 5
+FILE [DEBUG] 2022-02-04 15:30:18,205 main Logger - r= 5
+FILE [DEBUG] 2022-02-04 15:30:18,205 main Logger - ints= [-95, -94, -76, -67, -52, -41, -27, -11, 62, 87]
+FILE [DEBUG] 2022-02-04 15:30:18,205 main Logger - ints= [-95, -94, -76, -67, -52, -41, -27, -11, 62, 87]
+FILE [DEBUG] 2022-02-04 15:30:18,205 main Logger - arrayToSort= [-95, -94, -76, -67, -52, -41, -27, -11, 62, 87]
+FILE [INFO ] 2022-02-04 15:30:18,205 main Logger - Execution time(bubblemerge) in nano seconds:
+14280400
+Milliseconds:
+14.2804
+Seconds:
+0.0142804
+FILE [DEBUG] 2022-02-04 15:30:18,205 main Logger - result= [-95, -94, -76, -67, -52, -41, -27, -11, 62, 87]
+FILE [INFO ] 2022-02-04 15:31:18,689 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:31:23,865 main Logger - desiredSortMethod= bubbletree
+FILE [DEBUG] 2022-02-04 15:31:23,865 main Logger - desiredSortMethod= bubbletree
+FILE [DEBUG] 2022-02-04 15:31:23,865 main Logger - desiredSortMethod= bubbletree
+FILE [DEBUG] 2022-02-04 15:31:25,431 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:31:25,432 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:31:25,432 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:31:26,636 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:31:26,636 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:31:26,637 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:31:27,469 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:31:27,469 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:31:27,470 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:31:27,470 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:31:27,470 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:31:27,470 main Logger - unsortedArray= [-3, 59, 27, 52, 94, 64, 85, 53, 69, -51]
+FILE [INFO ] 2022-02-04 15:31:27,470 main Logger - Unsorted array= [-3, 59, 27, 52, 94, 64, 85, 53, 69, -51]
+FILE [DEBUG] 2022-02-04 15:31:27,471 main Logger - ?[I@72cde7cc
+FILE [INFO ] 2022-02-04 15:31:27,471 main Logger - desiredSortMethod= bubble
+FILE [INFO ] 2022-02-04 15:31:27,471 main Logger - array= [-3, 59, 27, 52, 94, 64, 85, 53, 69, -51]
+FILE [DEBUG] 2022-02-04 15:31:27,472 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-04 15:31:27,473 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-04 15:31:27,473 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BubbleSort
+FILE [DEBUG] 2022-02-04 15:31:27,473 main Logger - arrayToSort= [-3, 59, 27, 52, 94, 64, 85, 53, 69, -51]
+FILE [DEBUG] 2022-02-04 15:31:27,474 main Logger - array= [-3, 59, 27, 52, 94, 64, 85, 53, 69, -51]
+FILE [DEBUG] 2022-02-04 15:31:27,474 main Logger - array= [-51, -3, 27, 52, 53, 59, 64, 69, 85, 94]
+FILE [DEBUG] 2022-02-04 15:31:27,474 main Logger - arrayToSort= [-51, -3, 27, 52, 53, 59, 64, 69, 85, 94]
+FILE [INFO ] 2022-02-04 15:31:27,487 main Logger - Execution time(bubbletree) in nano seconds:
+2649400
+Milliseconds:
+2.6494
+Seconds:
+0.0026494
+FILE [DEBUG] 2022-02-04 15:31:27,488 main Logger - result= [-51, -3, 27, 52, 53, 59, 64, 69, 85, 94]
+FILE [INFO ] 2022-02-04 15:31:27,488 main Logger - desiredSortMethod= tree
+FILE [INFO ] 2022-02-04 15:31:27,488 main Logger - array= [-3, 59, 27, 52, 94, 64, 85, 53, 69, -51]
+FILE [DEBUG] 2022-02-04 15:31:27,488 main Logger - sortMethod = tree
+FILE [DEBUG] 2022-02-04 15:31:27,489 main Logger - sortMethod = tree
+FILE [INFO ] 2022-02-04 15:31:27,489 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BinarySearchTreeFacade
+FILE [DEBUG] 2022-02-04 15:31:27,489 main Logger - arrayToSort= [-3, 59, 27, 52, 94, 64, 85, 53, 69, -51]
+FILE [DEBUG] 2022-02-04 15:31:27,490 main Logger - ints= [-3, 59, 27, 52, 94, 64, 85, 53, 69, -51]
+FILE [DEBUG] 2022-02-04 15:31:27,491 main Logger - Entered value= -3
+FILE [DEBUG] 2022-02-04 15:31:27,491 main Logger - Entered value= 59
+FILE [DEBUG] 2022-02-04 15:31:27,491 main Logger - Entered value= 27
+FILE [DEBUG] 2022-02-04 15:31:27,492 main Logger - Entered value= 52
+FILE [DEBUG] 2022-02-04 15:31:27,492 main Logger - Entered value= 94
+FILE [DEBUG] 2022-02-04 15:31:27,492 main Logger - Entered value= 64
+FILE [DEBUG] 2022-02-04 15:31:27,492 main Logger - Entered value= 85
+FILE [DEBUG] 2022-02-04 15:31:27,492 main Logger - Entered value= 53
+FILE [DEBUG] 2022-02-04 15:31:27,492 main Logger - Entered value= 69
+FILE [DEBUG] 2022-02-04 15:31:27,492 main Logger - Entered value= -51
+FILE [DEBUG] 2022-02-04 15:31:27,492 main Logger - value= -51
+FILE [DEBUG] 2022-02-04 15:31:27,492 main Logger - value= -3
+FILE [DEBUG] 2022-02-04 15:31:27,492 main Logger - value= -3
+FILE [DEBUG] 2022-02-04 15:31:27,492 main Logger - value= 27
+FILE [DEBUG] 2022-02-04 15:31:27,493 main Logger - value= 52
+FILE [DEBUG] 2022-02-04 15:31:27,493 main Logger - value= 53
+FILE [DEBUG] 2022-02-04 15:31:27,493 main Logger - value= 59
+FILE [DEBUG] 2022-02-04 15:31:27,493 main Logger - value= 64
+FILE [DEBUG] 2022-02-04 15:31:27,493 main Logger - value= 69
+FILE [DEBUG] 2022-02-04 15:31:27,493 main Logger - value= 85
+FILE [DEBUG] 2022-02-04 15:31:27,493 main Logger - value= 94
+FILE [DEBUG] 2022-02-04 15:31:27,493 main Logger - output= [-51, -3, -3, 27, 52, 53, 59, 64, 69, 85, 94]
+FILE [DEBUG] 2022-02-04 15:31:27,493 main Logger - arrayToSort= [-51, -3, -3, 27, 52, 53, 59, 64, 69, 85, 94]
+FILE [INFO ] 2022-02-04 15:31:27,493 main Logger - Execution time(bubbletree) in nano seconds:
+5249500
+Milliseconds:
+5.2495
+Seconds:
+0.0052495
+FILE [DEBUG] 2022-02-04 15:31:27,493 main Logger - result= [-51, -3, -3, 27, 52, 53, 59, 64, 69, 85, 94]
+FILE [INFO ] 2022-02-04 15:33:18,246 main Logger - 
+Program Start
+
+FILE [DEBUG] 2022-02-04 15:33:21,847 main Logger - desiredSortMethod= bubblemerge
+FILE [DEBUG] 2022-02-04 15:33:21,847 main Logger - desiredSortMethod= bubblemerge
+FILE [DEBUG] 2022-02-04 15:33:21,847 main Logger - desiredSortMethod= bubblemerge
+FILE [DEBUG] 2022-02-04 15:33:23,718 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:33:23,718 main Logger - desiredArrayType=random
+FILE [DEBUG] 2022-02-04 15:33:23,718 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-04 15:33:25,301 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:33:25,302 main Logger - desiredArraySize= 10
+FILE [DEBUG] 2022-02-04 15:33:25,302 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-04 15:33:26,307 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:33:26,307 main Logger - desiredArrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:33:26,308 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-04 15:33:26,308 main Logger - size= 10
+FILE [DEBUG] 2022-02-04 15:33:26,308 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-04 15:33:26,308 main Logger - unsortedArray= [21, -74, 28, -44, 50, 87, -65, 70, 52, 24]
+FILE [INFO ] 2022-02-04 15:33:26,308 main Logger - Unsorted array= [21, -74, 28, -44, 50, 87, -65, 70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,309 main Logger - ?[I@72cde7cc
+FILE [INFO ] 2022-02-04 15:33:26,309 main Logger - desiredSortMethod= bubble
+FILE [INFO ] 2022-02-04 15:33:26,309 main Logger - array= [21, -74, 28, -44, 50, 87, -65, 70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,309 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-04 15:33:26,311 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-04 15:33:26,311 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BubbleSort
+FILE [DEBUG] 2022-02-04 15:33:26,311 main Logger - arrayToSort= [21, -74, 28, -44, 50, 87, -65, 70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,311 main Logger - array= [21, -74, 28, -44, 50, 87, -65, 70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,312 main Logger - array= [-74, -65, -44, 21, 24, 28, 50, 52, 70, 87]
+FILE [DEBUG] 2022-02-04 15:33:26,312 main Logger - arrayToSort= [-74, -65, -44, 21, 24, 28, 50, 52, 70, 87]
+FILE [INFO ] 2022-02-04 15:33:26,322 main Logger - Execution time(bubblemerge) in nano seconds:
+2724700
+Milliseconds:
+2.7247
+Seconds:
+0.0027247
+FILE [DEBUG] 2022-02-04 15:33:26,322 main Logger - result= [-74, -65, -44, 21, 24, 28, 50, 52, 70, 87]
+FILE [INFO ] 2022-02-04 15:33:26,323 main Logger - desiredSortMethod= merge
+FILE [INFO ] 2022-02-04 15:33:26,323 main Logger - array= [21, -74, 28, -44, 50, 87, -65, 70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,323 main Logger - sortMethod = merge
+FILE [DEBUG] 2022-02-04 15:33:26,324 main Logger - sortMethod = merge
+FILE [INFO ] 2022-02-04 15:33:26,324 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.MergeSort
+FILE [DEBUG] 2022-02-04 15:33:26,324 main Logger - arrayToSort= [21, -74, 28, -44, 50, 87, -65, 70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,324 main Logger - ints+ [21, -74, 28, -44, 50, 87, -65, 70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,324 main Logger - ints.length= 10
+FILE [DEBUG] 2022-02-04 15:33:26,325 main Logger - ints= [21, -74, 28, -44, 50, 87, -65, 70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,325 main Logger - ints.length= 10
+FILE [DEBUG] 2022-02-04 15:33:26,325 main Logger - division= 5
+FILE [DEBUG] 2022-02-04 15:33:26,325 main Logger - left= [0, 0, 0, 0, 0]
+FILE [DEBUG] 2022-02-04 15:33:26,325 main Logger - right= [0, 0, 0, 0, 0]
+FILE [DEBUG] 2022-02-04 15:33:26,325 main Logger - left= [21, -74, 28, -44, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,325 main Logger - right= [87, -65, 70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,326 main Logger - ints= [21, -74, 28, -44, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,326 main Logger - ints.length= 5
+FILE [DEBUG] 2022-02-04 15:33:26,326 main Logger - division= 2
+FILE [DEBUG] 2022-02-04 15:33:26,326 main Logger - left= [0, 0]
+FILE [DEBUG] 2022-02-04 15:33:26,326 main Logger - right= [0, 0, 0]
+FILE [DEBUG] 2022-02-04 15:33:26,326 main Logger - left= [21, -74]
+FILE [DEBUG] 2022-02-04 15:33:26,326 main Logger - right= [28, -44, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,326 main Logger - ints= [21, -74]
+FILE [DEBUG] 2022-02-04 15:33:26,326 main Logger - ints.length= 2
+FILE [DEBUG] 2022-02-04 15:33:26,326 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 15:33:26,326 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 15:33:26,326 main Logger - right= [0]
+FILE [DEBUG] 2022-02-04 15:33:26,326 main Logger - left= [21]
+FILE [DEBUG] 2022-02-04 15:33:26,327 main Logger - right= [-74]
+FILE [DEBUG] 2022-02-04 15:33:26,327 main Logger - ints= [21]
+FILE [DEBUG] 2022-02-04 15:33:26,327 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:33:26,327 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:33:26,327 main Logger - ints= [-74]
+FILE [DEBUG] 2022-02-04 15:33:26,327 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:33:26,327 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:33:26,327 main Logger - ints= [21, -74]
+FILE [DEBUG] 2022-02-04 15:33:26,327 main Logger - left= [21]
+FILE [DEBUG] 2022-02-04 15:33:26,328 main Logger - right= [-74]
+FILE [DEBUG] 2022-02-04 15:33:26,328 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 15:33:26,328 main Logger - r= 1
+FILE [DEBUG] 2022-02-04 15:33:26,328 main Logger - ints= [-74, 21]
+FILE [DEBUG] 2022-02-04 15:33:26,328 main Logger - ints= [28, -44, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,328 main Logger - ints.length= 3
+FILE [DEBUG] 2022-02-04 15:33:26,328 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 15:33:26,328 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 15:33:26,328 main Logger - right= [0, 0]
+FILE [DEBUG] 2022-02-04 15:33:26,328 main Logger - left= [28]
+FILE [DEBUG] 2022-02-04 15:33:26,329 main Logger - right= [-44, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,329 main Logger - ints= [28]
+FILE [DEBUG] 2022-02-04 15:33:26,329 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:33:26,329 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:33:26,329 main Logger - ints= [-44, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,329 main Logger - ints.length= 2
+FILE [DEBUG] 2022-02-04 15:33:26,329 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 15:33:26,329 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 15:33:26,329 main Logger - right= [0]
+FILE [DEBUG] 2022-02-04 15:33:26,329 main Logger - left= [-44]
+FILE [DEBUG] 2022-02-04 15:33:26,329 main Logger - right= [50]
+FILE [DEBUG] 2022-02-04 15:33:26,329 main Logger - ints= [-44]
+FILE [DEBUG] 2022-02-04 15:33:26,329 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:33:26,329 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - ints= [50]
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:33:26,330 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - ints= [-44, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - left= [-44]
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - right= [50]
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - r= 1
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - ints= [-44, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - ints= [28, -44, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - left= [28]
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - right= [-44, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - r= 2
+FILE [DEBUG] 2022-02-04 15:33:26,330 main Logger - ints= [-44, 28, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - ints= [21, -74, 28, -44, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - left= [-74, 21]
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - right= [-44, 28, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - l= 2
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - r= 3
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - ints= [-74, -44, 21, 28, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - ints= [87, -65, 70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - ints.length= 5
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - division= 2
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - left= [0, 0]
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - right= [0, 0, 0]
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - left= [87, -65]
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - right= [70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,331 main Logger - ints= [87, -65]
+FILE [DEBUG] 2022-02-04 15:33:26,332 main Logger - ints.length= 2
+FILE [DEBUG] 2022-02-04 15:33:26,332 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 15:33:26,332 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 15:33:26,332 main Logger - right= [0]
+FILE [DEBUG] 2022-02-04 15:33:26,332 main Logger - left= [87]
+FILE [DEBUG] 2022-02-04 15:33:26,332 main Logger - right= [-65]
+FILE [DEBUG] 2022-02-04 15:33:26,332 main Logger - ints= [87]
+FILE [DEBUG] 2022-02-04 15:33:26,332 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:33:26,332 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:33:26,332 main Logger - ints= [-65]
+FILE [DEBUG] 2022-02-04 15:33:26,332 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:33:26,332 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:33:26,333 main Logger - ints= [87, -65]
+FILE [DEBUG] 2022-02-04 15:33:26,333 main Logger - left= [87]
+FILE [DEBUG] 2022-02-04 15:33:26,333 main Logger - right= [-65]
+FILE [DEBUG] 2022-02-04 15:33:26,333 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 15:33:26,333 main Logger - r= 1
+FILE [DEBUG] 2022-02-04 15:33:26,333 main Logger - ints= [-65, 87]
+FILE [DEBUG] 2022-02-04 15:33:26,333 main Logger - ints= [70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,333 main Logger - ints.length= 3
+FILE [DEBUG] 2022-02-04 15:33:26,333 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 15:33:26,333 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - right= [0, 0]
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - left= [70]
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - right= [52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - ints= [70]
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:33:26,334 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - ints= [52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - ints.length= 2
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - division= 1
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - left= [0]
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - right= [0]
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - left= [52]
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - right= [24]
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - ints= [52]
+FILE [DEBUG] 2022-02-04 15:33:26,334 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:33:26,335 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:33:26,335 main Logger - ints= [24]
+FILE [DEBUG] 2022-02-04 15:33:26,335 main Logger - ints.length= 1
+FILE [INFO ] 2022-02-04 15:33:26,335 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-04 15:33:26,335 main Logger - ints= [52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,335 main Logger - left= [52]
+FILE [DEBUG] 2022-02-04 15:33:26,335 main Logger - right= [24]
+FILE [DEBUG] 2022-02-04 15:33:26,335 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 15:33:26,335 main Logger - r= 1
+FILE [DEBUG] 2022-02-04 15:33:26,335 main Logger - ints= [24, 52]
+FILE [DEBUG] 2022-02-04 15:33:26,335 main Logger - ints= [70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,335 main Logger - left= [70]
+FILE [DEBUG] 2022-02-04 15:33:26,335 main Logger - right= [24, 52]
+FILE [DEBUG] 2022-02-04 15:33:26,335 main Logger - l= 1
+FILE [DEBUG] 2022-02-04 15:33:26,335 main Logger - r= 2
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - ints= [24, 52, 70]
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - ints= [87, -65, 70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - left= [-65, 87]
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - right= [24, 52, 70]
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - l= 2
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - r= 3
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - ints= [-65, 24, 52, 70, 87]
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - ints= [21, -74, 28, -44, 50, 87, -65, 70, 52, 24]
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - left= [-74, -44, 21, 28, 50]
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - right= [-65, 24, 52, 70, 87]
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - l= 5
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - r= 5
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - ints= [-74, -65, -44, 21, 24, 28, 50, 52, 70, 87]
+FILE [DEBUG] 2022-02-04 15:33:26,336 main Logger - ints= [-74, -65, -44, 21, 24, 28, 50, 52, 70, 87]
+FILE [DEBUG] 2022-02-04 15:33:26,337 main Logger - arrayToSort= [-74, -65, -44, 21, 24, 28, 50, 52, 70, 87]
+FILE [INFO ] 2022-02-04 15:33:26,337 main Logger - Execution time(bubblemerge) in nano seconds:
+13872300
+Milliseconds:
+13.8723
+Seconds:
+0.0138723
+FILE [DEBUG] 2022-02-04 15:33:26,337 main Logger - result= [-74, -65, -44, 21, 24, 28, 50, 52, 70, 87]

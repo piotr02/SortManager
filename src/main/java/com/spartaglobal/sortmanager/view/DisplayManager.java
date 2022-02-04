@@ -14,14 +14,20 @@ public class DisplayManager {
         System.out.println("Available sorting methods:\n\n"
                 + "| BubbleSort | MergeSort | BinarySearchTree |\n\n"
                 + "------------------------------------------\n"
-                + "Please enter \"bubble\", \"merge\", or \"tree\": "
+                + "Please enter: \"bubble\", \"merge\", \"tree\",\n"
+                + "\"bubblemerge\", \"bubbletree\", \"mergetree\",\n"
+                + "or \"bubblemergetree\" to choose a method/s: "
                 + "\n------------------------------------------");
         Scanner sc = new Scanner(System.in);
         String desiredSortMethod = sc.next();
         SortManagerMain.logger.debug("desiredSortMethod= " + desiredSortMethod);
         while(!desiredSortMethod.equals("bubble") &&
                 !desiredSortMethod.equals("merge") &&
-                !desiredSortMethod.equals("tree")){
+                !desiredSortMethod.equals("tree") &&
+                !desiredSortMethod.equals("bubblemerge") &&
+                !desiredSortMethod.equals("bubbletree") &&
+                !desiredSortMethod.equals("mergetree") &&
+                !desiredSortMethod.equals("bubblemergetree")){
             SortManagerMain.logger.warn("Incorrect sort method entered!");
             System.out.println("Incorrect method! Try again: ");
             desiredSortMethod =sc.next();
@@ -135,15 +141,50 @@ public class DisplayManager {
         return output.toString();
     }
 
-    /**
-     * Prints the result of a sorting algorithm.
-     *
-     * @param result result of a sorting algorithm
-     */
-    public void getResult(String result){
-        SortManagerMain.logger.debug("result= " + result);
-        System.out.println("------------------------------------------\n"
-                + "Sorted Array:\n\n"
-                + result);
+    public void getStart(){
+        SortManagerMain.logger.info("\nProgram Start\n");
+        System.out.println("===============SORT MANAGER===============\n");
     }
+
+//    /**
+//     * Prints the result of a sorting algorithm.
+//     *
+//     * @param result result of a sorting algorithm
+//     */
+//    public void getResult(String result){
+//        SortManagerMain.logger.debug("result= " + result);
+//        System.out.println("------------------------------------------\n"
+//                + "Sorted Array:\n\n"
+//                + result);
+//    }
+
+    public void getResult(String result, String sortMethod){
+        SortManagerMain.logger.debug("result= " + result);
+//        System.out.println("------------------------------------------\n"
+//                + "Unsorted array:\n\n"
+//                + displayArray(unsortedArray));
+//        System.out.println("------------------------------------------\n"
+//                + "Array sorted with Arrays.sort():\n\n"
+//                + displayArray(comparisonArray)
+//                + "\n------------------------------------------");
+        System.out.println("Sorted Array with " + sortMethod + " :\n\n"
+                + result
+                + "\n------------------------------------------");
+    }
+    public void getEnd(int[] unsortedArray, int[] comparisonArray){
+        System.out.println("------------------------------------------\n"
+                + "Unsorted array:\n\n"
+                + displayArray(unsortedArray)
+                + "\n------------------------------------------\n"
+                + "Array sorted with Arrays.sort():\n\n"
+                + displayArray(comparisonArray)
+                + "\n------------------------------------------");
+    }
+
+    public String getDuration(long duration, String sortMethod){
+        return "Execution time(" + sortMethod + ") in nano seconds:\n" + (duration)
+                + "\nMilliseconds:\n" + ((double)(duration)/1000000)
+                + "\nSeconds:\n" + ((double)(duration)/1000000000);
+    }
+
 }

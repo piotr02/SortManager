@@ -3,6 +3,7 @@ package com.spartaglobal.sortmanager.model;
 import com.spartaglobal.sortmanager.SortManagerMain;
 import com.spartaglobal.sortmanager.view.DisplayManager;
 
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -57,5 +58,24 @@ public class ArrayGenerator {
         }
         unsortedArray = createdArray;
         SortManagerMain.logger.debug("unsortedArray= " + new DisplayManager().displayArray(unsortedArray));
+    }
+
+    public void generateArray(String desiredArrayType){
+        DisplayManager view = new DisplayManager();
+        if(desiredArrayType.equals("random")){
+            int arraySize = view.getDesiredArraySize();
+            SortManagerMain.logger.debug("arraySize= " + arraySize);
+            int arrayBounds = view.getDesiredArrayBounds();
+            SortManagerMain.logger.debug("arrayBounds= " + arrayBounds);
+
+            generateRandomArray(arraySize, arrayBounds);
+            SortManagerMain.logger.info("Unsorted array= " + view.displayArray(getUnsortedArray()));
+        }
+        else{
+            int arraySize = view.getDesiredArraySize();
+            SortManagerMain.logger.debug("arraySize= " + arraySize);
+            generateCustomArray(arraySize);
+            SortManagerMain.logger.info("Unsorted array= " + view.displayArray(getUnsortedArray()));
+        }
     }
 }

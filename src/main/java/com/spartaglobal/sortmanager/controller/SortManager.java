@@ -11,17 +11,17 @@ public class SortManager {
      * Initiates the sorting process with a chosen algorithm and an unsorted array.
      *
      * @param desiredSortMethod the chosen sorting algorithm
-     * @param unsortedArray     array to be sorted
+     * @param array     array to be sorted
      * @return a String representation of the sorted array
      */
-    public String initiateSorting(String desiredSortMethod, int[] unsortedArray) {
+    public String initiateSorting(String desiredSortMethod, int[] array) {
         SortManagerMain.logger.info("desiredSortMethod= " + desiredSortMethod);
-        SortManagerMain.logger.info("unsortedArray= " + new DisplayManager().displayArray(unsortedArray));
+        SortManagerMain.logger.info("array= " + new DisplayManager().displayArray(array));
         SortInterface si = getSort(desiredSortMethod);
         SortManagerMain.logger.info("desiredSortMethod= " + getSort(desiredSortMethod).getClass());
         DisplayManager view = new DisplayManager();
 
-        int[] arrayToSort = Arrays.copyOf(unsortedArray, unsortedArray.length);
+        int[] arrayToSort = Arrays.copyOf(array, array.length);
         SortManagerMain.logger.debug("arrayToSort= " + new DisplayManager().displayArray(arrayToSort));
         arrayToSort = si.sort(arrayToSort);
         SortManagerMain.logger.debug("arrayToSort= " + new DisplayManager().displayArray(arrayToSort));
@@ -44,5 +44,92 @@ public class SortManager {
             default -> null;
         };
         return sf.getInstance();
+    }
+
+    public void executeSort(String desiredSortMethod, String desiredArrayType){
+        ArrayGenerator ag = new ArrayGenerator();
+        ag.generateArray(desiredArrayType);
+        DisplayManager view = new DisplayManager();
+
+
+        int[] thisUnsortedArray = Arrays.copyOf(ag.getUnsortedArray(), ag.getUnsortedArray().length);
+        SortManagerMain.logger.debug("?" + ag.getUnsortedArray());
+        //SortManagerMain.logger.debug("thisUnsortedArray= " + view.displayArray(thisUnsortedArray));
+//        int[] sortingArray = Arrays.copyOf(thisUnsortedArray, thisUnsortedArray.length);
+//        SortManagerMain.logger.debug("sortingArray= " + view.displayArray(sortingArray));
+        int[] comparisonArray = Arrays.copyOf(ag.getUnsortedArray(), ag.getUnsortedArray().length);
+        //SortManagerMain.logger.debug("comparisonArray= " + view.displayArray(comparisonArray));
+        Arrays.sort(comparisonArray);
+        //SortManagerMain.logger.debug("comparisonArray= " + view.displayArray(comparisonArray));
+
+        view.getEnd(thisUnsortedArray, comparisonArray);
+
+        if(desiredSortMethod.equals("bubblemerge")) {
+            String[] sortMethods = {"bubble", "merge"};
+            for (String sortMethod : sortMethods) {
+                long startTime = System.nanoTime();
+                //initiate the sorting
+                String result = initiateSorting(sortMethod, Arrays.copyOf(thisUnsortedArray, thisUnsortedArray.length));
+                long endTime = System.nanoTime();
+                long duration = endTime - startTime;
+                SortManagerMain.logger.info("Execution time(" + desiredSortMethod + ") in nano seconds:\n" + (duration)
+                        + "\nMilliseconds:\n" + ((double)(duration)/1000000)
+                        + "\nSeconds:\n" + ((double)(duration)/1000000000));
+                view.getResult(result, sortMethod);
+            }
+        }
+        else if(desiredSortMethod.equals("bubbletree")){
+            String[] sortMethods = {"bubble", "tree"};
+            for (String sortMethod : sortMethods) {
+                long startTime = System.nanoTime();
+                //initiate the sorting
+                String result = initiateSorting(sortMethod, Arrays.copyOf(thisUnsortedArray, thisUnsortedArray.length));
+                long endTime = System.nanoTime();
+                long duration = endTime - startTime;
+                SortManagerMain.logger.info("Execution time(" + desiredSortMethod + ") in nano seconds:\n" + (duration)
+                        + "\nMilliseconds:\n" + ((double)(duration)/1000000)
+                        + "\nSeconds:\n" + ((double)(duration)/1000000000));
+                view.getResult(result, sortMethod);
+            }
+        }
+        else if(desiredSortMethod.equals("mergetree")){
+            String[] sortMethods = {"merge", "tree"};
+            for (String sortMethod : sortMethods) {
+                long startTime = System.nanoTime();
+                //initiate the sorting
+                String result = initiateSorting(sortMethod, Arrays.copyOf(thisUnsortedArray, thisUnsortedArray.length));
+                long endTime = System.nanoTime();
+                long duration = endTime - startTime;
+                SortManagerMain.logger.info("Execution time(" + desiredSortMethod + ") in nano seconds:\n" + (duration)
+                        + "\nMilliseconds:\n" + ((double)(duration)/1000000)
+                        + "\nSeconds:\n" + ((double)(duration)/1000000000));
+                view.getResult(result, sortMethod);
+            }
+        }
+        else if(desiredSortMethod.equals("bubblemergetree")){
+            String[] sortMethods = {"bubble", "merge", "tree"};
+            for (String sortMethod : sortMethods) {
+                long startTime = System.nanoTime();
+                //initiate the sorting
+                String result = initiateSorting(sortMethod, Arrays.copyOf(thisUnsortedArray, thisUnsortedArray.length));
+                long endTime = System.nanoTime();
+                long duration = endTime - startTime;
+                SortManagerMain.logger.info("Execution time(" + desiredSortMethod + ") in nano seconds:\n" + (duration)
+                        + "\nMilliseconds:\n" + ((double)(duration)/1000000)
+                        + "\nSeconds:\n" + ((double)(duration)/1000000000));
+                view.getResult(result, sortMethod);
+            }
+        }
+        else{
+            long startTime = System.nanoTime();
+            //initiate the sorting
+            String result = initiateSorting(desiredSortMethod, Arrays.copyOf(thisUnsortedArray, thisUnsortedArray.length));
+            long endTime = System.nanoTime();
+            long duration = endTime - startTime;
+            SortManagerMain.logger.info("Execution time(" + desiredSortMethod + ") in nano seconds:\n" + (duration)
+                    + "\nMilliseconds:\n" + ((double)(duration)/1000000)
+                    + "\nSeconds:\n" + ((double)(duration)/1000000000));
+            view.getResult(result, desiredSortMethod);
+        }
     }
 }

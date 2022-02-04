@@ -25,7 +25,6 @@ public class BinarySearchTreeFacade implements SortInterface{
         bst.traverseInOrder(root, list);
 
         int[] output = new int[list.size()];
-
         int i = 0;
         for(int value: list){
             SortManagerMain.logger.debug("value= " + value);
