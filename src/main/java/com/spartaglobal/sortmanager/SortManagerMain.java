@@ -10,7 +10,7 @@ public class SortManagerMain {
 
     public static void main(String[] args) {
         DisplayManager view = new DisplayManager();
-        view.getStart();
+        view.printStart();
         String desiredSortMethod = view.getDesiredSortMethod();
         logger.debug("desiredSortMethod= " + desiredSortMethod);
         SortManager controller = new SortManager();

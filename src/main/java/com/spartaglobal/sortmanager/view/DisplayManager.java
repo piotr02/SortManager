@@ -1,7 +1,6 @@
 package com.spartaglobal.sortmanager.view;
 
 import com.spartaglobal.sortmanager.SortManagerMain;
-
 import java.util.Scanner;
 
 public class DisplayManager {
@@ -89,9 +88,9 @@ public class DisplayManager {
     }
 
     /**
-     * Asks the user if they want to create a random array and returns a desired answer from it.
+     * Asks the user if they want to create a random or a custom array.
      *
-     * @return desired answer
+     * @return desired array type
      */
     public String getDesiredArrayType(){
         System.out.println("------------------------------------------\n" +
@@ -141,18 +140,34 @@ public class DisplayManager {
         return output.toString();
     }
 
-    public void getStart(){
+    /**
+     * Prints program headline.
+     */
+    public void printStart(){
         SortManagerMain.logger.info("\nProgram Start\n");
         System.out.println("===============SORT MANAGER===============\n");
     }
 
-    public void getResult(String result, String sortMethod){
+    /**
+     * Prints the result with the sorting method.
+     *
+     * @param result result of the sort
+     * @param sortMethod method used for sorting
+     */
+    public void printResult(String result, String sortMethod){
         SortManagerMain.logger.debug("result= " + result);
         System.out.println("Sorted Array with " + sortMethod + " :\n\n"
                 + result
                 + "\n------------------------------------------");
     }
-    public void getEnd(int[] unsortedArray, int[] comparisonArray){
+
+    /**
+     * Prints an unsorted array and an array sorted with Arrays.sort().
+     *
+     * @param unsortedArray unsorted array
+     * @param comparisonArray array sorted with Arrays.sort()
+     */
+    public void printEnd(int[] unsortedArray, int[] comparisonArray){
         System.out.println("------------------------------------------\n"
                 + "Unsorted array:\n\n"
                 + displayArray(unsortedArray)
@@ -162,10 +177,16 @@ public class DisplayManager {
                 + "\n------------------------------------------");
     }
 
+    /**
+     * Returns a String with the time the sorting algorithm took.
+     *
+     * @param duration time taken by the sorting algorithm
+     * @param sortMethod sorting algorithm used
+     * @return String with the time the sorting algorithm took
+     */
     public String getDuration(long duration, String sortMethod){
         return "Execution time(" + sortMethod + ") in nano seconds:\n" + (duration)
                 + "\nMilliseconds:\n" + ((double)(duration)/1000000)
                 + "\nSeconds:\n" + ((double)(duration)/1000000000);
     }
-
 }

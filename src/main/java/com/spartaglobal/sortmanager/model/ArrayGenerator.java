@@ -2,8 +2,6 @@ package com.spartaglobal.sortmanager.model;
 
 import com.spartaglobal.sortmanager.SortManagerMain;
 import com.spartaglobal.sortmanager.view.DisplayManager;
-
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -19,11 +17,13 @@ public class ArrayGenerator {
     public void generateRandomArray(int size, int bounds){
         SortManagerMain.logger.debug("size= " + size);
         SortManagerMain.logger.debug("bounds= " + bounds);
+        // Create an array and populate it with random numbers within a given range
         Random r = new Random();
         int[] array = new int[size];
         for(int i = 0; i < array.length; i++){
             array[i] = r.nextInt(-bounds, bounds+1);
         }
+        // Assign the created random array to the unsortedArray variable
         unsortedArray = array;
         SortManagerMain.logger.debug("unsortedArray= " + new DisplayManager().displayArray(unsortedArray));
     }
@@ -44,11 +44,13 @@ public class ArrayGenerator {
      */
     public void generateCustomArray(int size){
         SortManagerMain.logger.debug("size= " + size);
+        // Read numbers from user, populate the array
         Scanner sc = new Scanner(System.in);
         int[] createdArray = new int[size];
         for(int i = 0; i < createdArray.length; i++){
             System.out.println("------------------------------------------\n"
                     + "Enter a value: ");
+            // Loop back in case of wrong input
             while(!sc.hasNextInt()){
                 SortManagerMain.logger.warn("Incorrect value entered!");
                 System.out.println("Incorrect number! Enter a number: ");
@@ -56,10 +58,16 @@ public class ArrayGenerator {
             }
             createdArray[i] = sc.nextInt();
         }
+        // Assign the array to the unsortedArray variable
         unsortedArray = createdArray;
         SortManagerMain.logger.debug("unsortedArray= " + new DisplayManager().displayArray(unsortedArray));
     }
 
+    /**
+     * Select which array type to generate based in desiredArrayType variable.
+     *
+     * @param desiredArrayType desired array type entered by user
+     */
     public void generateArray(String desiredArrayType){
         DisplayManager view = new DisplayManager();
         if(desiredArrayType.equals("random")){
