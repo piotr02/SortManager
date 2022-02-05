@@ -4035,3 +4035,63 @@ Milliseconds:
 2.0858
 Seconds:
 0.0020858
+FILE [DEBUG] 2022-02-05 23:14:34,443 main Logger - desiredSortMethod= bubblemergetree
+FILE [DEBUG] 2022-02-05 23:14:36,320 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-05 23:14:37,252 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-05 23:14:38,330 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-05 23:14:38,330 main Logger - Unsorted array= [87, -60, -86, 59, -13, 68, 55, -94, -5, 59]
+FILE [DEBUG] 2022-02-05 23:14:38,330 main Logger - comparisonArray= [-94, -86, -60, -13, -5, 55, 59, 59, 68, 87]
+FILE [DEBUG] 2022-02-05 23:14:38,331 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-05 23:14:38,332 main Logger - Sorted Array= [-94, -86, -60, -13, -5, 55, 59, 59, 68, 87]
+FILE [INFO ] 2022-02-05 23:14:38,343 main Logger - Execution time(bubble) in nano seconds:
+1426800
+Milliseconds:
+1.4268
+Seconds:
+0.0014268
+FILE [DEBUG] 2022-02-05 23:14:38,347 main Logger - sortMethod = merge
+FILE [DEBUG] 2022-02-05 23:14:38,348 main Logger - Sorted Array= [-94, -86, -60, -13, -5, 55, 59, 59, 68, 87]
+FILE [INFO ] 2022-02-05 23:14:38,348 main Logger - Execution time(merge) in nano seconds:
+1949700
+Milliseconds:
+1.9497
+Seconds:
+0.0019497
+FILE [DEBUG] 2022-02-05 23:14:38,348 main Logger - sortMethod = tree
+FILE [DEBUG] 2022-02-05 23:14:38,350 main Logger - Sorted Array= [-94, -86, -60, -13, -5, 55, 59, 59, 68, 87]
+FILE [INFO ] 2022-02-05 23:14:38,350 main Logger - Execution time(tree) in nano seconds:
+1780700
+Milliseconds:
+1.7807
+Seconds:
+0.0017807
+FILE [DEBUG] 2022-02-05 23:15:33,880 main Logger - desiredSortMethod= bubblemergetree
+FILE [DEBUG] 2022-02-05 23:15:35,816 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-05 23:15:36,677 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-05 23:15:37,500 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-05 23:15:37,500 main Logger - Unsorted array= [75, 24, -39, 21, 52, 61, -89, 36, -94, -79]
+FILE [DEBUG] 2022-02-05 23:15:37,500 main Logger - comparisonArray= [-94, -89, -79, -39, 21, 24, 36, 52, 61, 75]
+FILE [DEBUG] 2022-02-05 23:15:37,501 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-05 23:15:37,502 main Logger - Sorted Array= [-94, -89, -79, -39, 21, 24, 36, 52, 61, 75]
+FILE [INFO ] 2022-02-05 23:15:37,512 main Logger - Execution time(bubble) in nano seconds:
+1456400
+Milliseconds:
+1.4564
+Seconds:
+0.0014564
+FILE [DEBUG] 2022-02-05 23:15:37,517 main Logger - sortMethod = merge
+FILE [DEBUG] 2022-02-05 23:15:37,518 main Logger - Sorted Array= [-94, -89, -79, -39, 21, 24, 36, 52, 61, 75]
+FILE [INFO ] 2022-02-05 23:15:37,518 main Logger - Execution time(merge) in nano seconds:
+1623700
+Milliseconds:
+1.6237
+Seconds:
+0.0016237
+FILE [DEBUG] 2022-02-05 23:15:37,519 main Logger - sortMethod = tree
+FILE [DEBUG] 2022-02-05 23:15:37,520 main Logger - Sorted Array= [-94, -89, -79, -39, 21, 24, 36, 52, 61, 75]
+FILE [INFO ] 2022-02-05 23:15:37,520 main Logger - Execution time(tree) in nano seconds:
+1511600
+Milliseconds:
+1.5116
+Seconds:
+0.0015116

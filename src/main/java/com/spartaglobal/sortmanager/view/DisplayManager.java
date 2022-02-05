@@ -145,10 +145,13 @@ public class DisplayManager {
      * @param result result of the sort
      * @param sortMethod method used for sorting
      */
-    public void printResult(String result, String sortMethod){
+    public void printResult(String result, String sortMethod, long duration){
         System.out.println("Sorted Array with " + sortMethod + " :\n\n"
                 + result
+                + "\n------------------------------------------\n"
+                + getDuration(duration, sortMethod)
                 + "\n------------------------------------------");
+
     }
 
     /**

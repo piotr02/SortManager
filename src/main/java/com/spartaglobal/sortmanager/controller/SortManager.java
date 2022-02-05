@@ -62,7 +62,7 @@ public class SortManager {
             long duration = endTime - startTime;
             SortManagerMain.logger.info(dm.getDuration(duration, sortMethod));
             // Display the result
-            dm.printResult(result, sortMethod);
+            dm.printResult(result, sortMethod, duration);
         }
     }
 
@@ -113,7 +113,7 @@ public class SortManager {
             long endTime = System.nanoTime();
             long duration = endTime - startTime;
             SortManagerMain.logger.info(view.getDuration(duration, desiredSortMethod));
-            view.printResult(result, desiredSortMethod);
+            view.printResult(result, desiredSortMethod, duration);
         }
     }
 }
