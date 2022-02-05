@@ -15,8 +15,6 @@ public class ArrayGenerator {
      * @param bounds desired range of the numbers in the array
      */
     public void generateRandomArray(int size, int bounds){
-        SortManagerMain.logger.debug("size= " + size);
-        SortManagerMain.logger.debug("bounds= " + bounds);
         // Create an array and populate it with random numbers within a given range
         Random r = new Random();
         int[] array = new int[size];
@@ -25,7 +23,6 @@ public class ArrayGenerator {
         }
         // Assign the created random array to the unsortedArray variable
         unsortedArray = array;
-        SortManagerMain.logger.debug("unsortedArray= " + new DisplayManager().displayArray(unsortedArray));
     }
 
     /**
@@ -43,7 +40,6 @@ public class ArrayGenerator {
      * @param size desired size of the array
      */
     public void generateCustomArray(int size){
-        SortManagerMain.logger.debug("size= " + size);
         // Read numbers from user, populate the array
         Scanner sc = new Scanner(System.in);
         int[] createdArray = new int[size];
@@ -60,7 +56,6 @@ public class ArrayGenerator {
         }
         // Assign the array to the unsortedArray variable
         unsortedArray = createdArray;
-        SortManagerMain.logger.debug("unsortedArray= " + new DisplayManager().displayArray(unsortedArray));
     }
 
     /**
@@ -77,7 +72,7 @@ public class ArrayGenerator {
             SortManagerMain.logger.debug("arrayBounds= " + arrayBounds);
 
             generateRandomArray(arraySize, arrayBounds);
-            SortManagerMain.logger.info("Unsorted array= " + view.displayArray(getUnsortedArray()));
+            SortManagerMain.logger.debug("Unsorted array= " + view.displayArray(getUnsortedArray()));
         }
         else{
             int arraySize = view.getDesiredArraySize();

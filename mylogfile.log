@@ -3836,3 +3836,188 @@ Milliseconds:
 Seconds:
 0.0132494
 FILE [DEBUG] 2022-02-04 20:21:55,893 main Logger - result= [-92, -87, -82, -81, -80, -78, -73, 15, 52, 57]
+FILE [DEBUG] 2022-02-05 18:35:40,987 main Logger - desiredSortMethod= bubblemergetree
+FILE [DEBUG] 2022-02-05 18:35:43,018 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-05 18:35:43,893 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-05 18:35:44,752 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-05 18:35:44,752 main Logger - size= 10
+FILE [DEBUG] 2022-02-05 18:35:44,752 main Logger - bounds= 100
+FILE [DEBUG] 2022-02-05 18:35:44,752 main Logger - unsortedArray= [98, 91, -22, -34, 82, -81, -45, -90, -72, 16]
+FILE [INFO ] 2022-02-05 18:35:44,752 main Logger - Unsorted array= [98, 91, -22, -34, 82, -81, -45, -90, -72, 16]
+FILE [DEBUG] 2022-02-05 18:35:44,752 main Logger - unsortedArray= [98, 91, -22, -34, 82, -81, -45, -90, -72, 16]
+FILE [DEBUG] 2022-02-05 18:35:44,752 main Logger - comparisonArray= [98, 91, -22, -34, 82, -81, -45, -90, -72, 16]
+FILE [DEBUG] 2022-02-05 18:35:44,752 main Logger - comparisonArray= [-90, -81, -72, -45, -34, -22, 16, 82, 91, 98]
+FILE [INFO ] 2022-02-05 18:35:44,752 main Logger - desiredSortMethod= bubble
+FILE [INFO ] 2022-02-05 18:35:44,752 main Logger - array= [98, 91, -22, -34, 82, -81, -45, -90, -72, 16]
+FILE [DEBUG] 2022-02-05 18:35:44,752 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-05 18:35:44,752 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-05 18:35:44,752 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BubbleSort
+FILE [DEBUG] 2022-02-05 18:35:44,752 main Logger - arrayToSort= [98, 91, -22, -34, 82, -81, -45, -90, -72, 16]
+FILE [DEBUG] 2022-02-05 18:35:44,752 main Logger - arrayToSort= [-90, -81, -72, -45, -34, -22, 16, 82, 91, 98]
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - Execution time(bubble) in nano seconds:
+2500400
+Milliseconds:
+2.5004
+Seconds:
+0.0025004
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - desiredSortMethod= merge
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - array= [98, 91, -22, -34, 82, -81, -45, -90, -72, 16]
+FILE [DEBUG] 2022-02-05 18:35:44,768 main Logger - sortMethod = merge
+FILE [DEBUG] 2022-02-05 18:35:44,768 main Logger - sortMethod = merge
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.MergeSort
+FILE [DEBUG] 2022-02-05 18:35:44,768 main Logger - arrayToSort= [98, 91, -22, -34, 82, -81, -45, -90, -72, 16]
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-05 18:35:44,768 main Logger - arrayToSort= [-90, -81, -72, -45, -34, -22, 16, 82, 91, 98]
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - Execution time(merge) in nano seconds:
+2327200
+Milliseconds:
+2.3272
+Seconds:
+0.0023272
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - desiredSortMethod= tree
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - array= [98, 91, -22, -34, 82, -81, -45, -90, -72, 16]
+FILE [DEBUG] 2022-02-05 18:35:44,768 main Logger - sortMethod = tree
+FILE [DEBUG] 2022-02-05 18:35:44,768 main Logger - sortMethod = tree
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BinarySearchTreeFacade
+FILE [DEBUG] 2022-02-05 18:35:44,768 main Logger - arrayToSort= [98, 91, -22, -34, 82, -81, -45, -90, -72, 16]
+FILE [DEBUG] 2022-02-05 18:35:44,768 main Logger - arrayToSort= [-90, -81, -72, -45, -34, -22, 16, 82, 91, 98]
+FILE [INFO ] 2022-02-05 18:35:44,768 main Logger - Execution time(tree) in nano seconds:
+2964100
+Milliseconds:
+2.9641
+Seconds:
+0.0029641
+FILE [WARN ] 2022-02-05 18:38:24,488 main Logger - Incorrect sort method entered!
+FILE [DEBUG] 2022-02-05 18:38:30,570 main Logger - desiredSortMethod= bubblemergetree
+FILE [DEBUG] 2022-02-05 18:38:32,648 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-05 18:38:34,148 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-05 18:38:35,773 main Logger - arrayBounds= 100
+FILE [INFO ] 2022-02-05 18:38:35,773 main Logger - Unsorted array= [-16, -25, 97, 14, 41, -28, 77, 87, -32, 10]
+FILE [DEBUG] 2022-02-05 18:38:35,773 main Logger - unsortedArray= [-16, -25, 97, 14, 41, -28, 77, 87, -32, 10]
+FILE [DEBUG] 2022-02-05 18:38:35,773 main Logger - comparisonArray= [-16, -25, 97, 14, 41, -28, 77, 87, -32, 10]
+FILE [DEBUG] 2022-02-05 18:38:35,773 main Logger - comparisonArray= [-32, -28, -25, -16, 10, 14, 41, 77, 87, 97]
+FILE [INFO ] 2022-02-05 18:38:35,773 main Logger - desiredSortMethod= bubble
+FILE [INFO ] 2022-02-05 18:38:35,773 main Logger - array= [-16, -25, 97, 14, 41, -28, 77, 87, -32, 10]
+FILE [DEBUG] 2022-02-05 18:38:35,773 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-05 18:38:35,773 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-05 18:38:35,773 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BubbleSort
+FILE [DEBUG] 2022-02-05 18:38:35,773 main Logger - arrayToSort= [-16, -25, 97, 14, 41, -28, 77, 87, -32, 10]
+FILE [DEBUG] 2022-02-05 18:38:35,773 main Logger - arrayToSort= [-32, -28, -25, -16, 10, 14, 41, 77, 87, 97]
+FILE [INFO ] 2022-02-05 18:38:35,773 main Logger - Execution time(bubble) in nano seconds:
+2746900
+Milliseconds:
+2.7469
+Seconds:
+0.0027469
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - desiredSortMethod= merge
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - array= [-16, -25, 97, 14, 41, -28, 77, 87, -32, 10]
+FILE [DEBUG] 2022-02-05 18:38:35,788 main Logger - sortMethod = merge
+FILE [DEBUG] 2022-02-05 18:38:35,788 main Logger - sortMethod = merge
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.MergeSort
+FILE [DEBUG] 2022-02-05 18:38:35,788 main Logger - arrayToSort= [-16, -25, 97, 14, 41, -28, 77, 87, -32, 10]
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - Array length less than 2. Returning.
+FILE [DEBUG] 2022-02-05 18:38:35,788 main Logger - arrayToSort= [-32, -28, -25, -16, 10, 14, 41, 77, 87, 97]
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - Execution time(merge) in nano seconds:
+2445100
+Milliseconds:
+2.4451
+Seconds:
+0.0024451
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - desiredSortMethod= tree
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - array= [-16, -25, 97, 14, 41, -28, 77, 87, -32, 10]
+FILE [DEBUG] 2022-02-05 18:38:35,788 main Logger - sortMethod = tree
+FILE [DEBUG] 2022-02-05 18:38:35,788 main Logger - sortMethod = tree
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - desiredSortMethod= class com.spartaglobal.sortmanager.model.BinarySearchTreeFacade
+FILE [DEBUG] 2022-02-05 18:38:35,788 main Logger - arrayToSort= [-16, -25, 97, 14, 41, -28, 77, 87, -32, 10]
+FILE [DEBUG] 2022-02-05 18:38:35,788 main Logger - arrayToSort= [-32, -28, -25, -16, 10, 14, 41, 77, 87, 97]
+FILE [INFO ] 2022-02-05 18:38:35,788 main Logger - Execution time(tree) in nano seconds:
+2984800
+Milliseconds:
+2.9848
+Seconds:
+0.0029848
+FILE [DEBUG] 2022-02-05 18:42:28,264 main Logger - desiredSortMethod= bubblemergetree
+FILE [DEBUG] 2022-02-05 18:42:29,686 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-05 18:42:30,358 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-05 18:42:31,092 main Logger - arrayBounds= 100
+FILE [INFO ] 2022-02-05 18:42:31,092 main Logger - Unsorted array= [-13, 7, 57, -38, -11, -60, -24, 99, 71, -26]
+FILE [DEBUG] 2022-02-05 18:42:31,092 main Logger - comparisonArray= [-60, -38, -26, -24, -13, -11, 7, 57, 71, 99]
+FILE [DEBUG] 2022-02-05 18:42:31,092 main Logger - sortMethod = bubble
+FILE [INFO ] 2022-02-05 18:42:31,108 main Logger - Execution time(bubble) in nano seconds:
+1679100
+Milliseconds:
+1.6791
+Seconds:
+0.0016791
+FILE [DEBUG] 2022-02-05 18:42:31,108 main Logger - sortMethod = merge
+FILE [INFO ] 2022-02-05 18:42:31,108 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:42:31,108 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:42:31,108 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:42:31,108 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:42:31,108 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:42:31,108 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:42:31,108 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:42:31,108 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:42:31,108 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:42:31,108 main Logger - Array length less than 2. Returning.
+FILE [INFO ] 2022-02-05 18:42:31,108 main Logger - Execution time(merge) in nano seconds:
+1753900
+Milliseconds:
+1.7539
+Seconds:
+0.0017539
+FILE [DEBUG] 2022-02-05 18:42:31,108 main Logger - sortMethod = tree
+FILE [INFO ] 2022-02-05 18:42:31,108 main Logger - Execution time(tree) in nano seconds:
+2272600
+Milliseconds:
+2.2726
+Seconds:
+0.0022726
+FILE [DEBUG] 2022-02-05 18:45:45,548 main Logger - desiredSortMethod= bubblemergetree
+FILE [DEBUG] 2022-02-05 18:45:47,517 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-05 18:45:48,502 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-05 18:45:49,205 main Logger - arrayBounds= 100
+FILE [INFO ] 2022-02-05 18:45:49,205 main Logger - Unsorted array= [-2, -89, -49, -94, -82, -13, -65, -61, -7, 74]
+FILE [DEBUG] 2022-02-05 18:45:49,205 main Logger - comparisonArray= [-94, -89, -82, -65, -61, -49, -13, -7, -2, 74]
+FILE [DEBUG] 2022-02-05 18:45:49,205 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-05 18:45:49,205 main Logger - Sorted Array= [-94, -89, -82, -65, -61, -49, -13, -7, -2, 74]
+FILE [INFO ] 2022-02-05 18:45:49,220 main Logger - Execution time(bubble) in nano seconds:
+1846500
+Milliseconds:
+1.8465
+Seconds:
+0.0018465
+FILE [DEBUG] 2022-02-05 18:45:49,220 main Logger - sortMethod = merge
+FILE [DEBUG] 2022-02-05 18:45:49,220 main Logger - Sorted Array= [-94, -89, -82, -65, -61, -49, -13, -7, -2, 74]
+FILE [INFO ] 2022-02-05 18:45:49,220 main Logger - Execution time(merge) in nano seconds:
+1120700
+Milliseconds:
+1.1207
+Seconds:
+0.0011207
+FILE [DEBUG] 2022-02-05 18:45:49,220 main Logger - sortMethod = tree
+FILE [DEBUG] 2022-02-05 18:45:49,220 main Logger - Sorted Array= [-94, -89, -82, -65, -61, -49, -13, -7, -2, 74]
+FILE [INFO ] 2022-02-05 18:45:49,220 main Logger - Execution time(tree) in nano seconds:
+2483400
+Milliseconds:
+2.4834
+Seconds:
+0.0024834

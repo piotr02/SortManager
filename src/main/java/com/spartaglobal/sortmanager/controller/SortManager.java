@@ -15,22 +15,18 @@ public class SortManager {
      * @return a String representation of the sorted array
      */
     public String initiateSorting(String desiredSortMethod, int[] array) {
-        SortManagerMain.logger.info("desiredSortMethod= " + desiredSortMethod);
-        SortManagerMain.logger.info("array= " + new DisplayManager().displayArray(array));
         // Instantiate the SortInterface object with the desired sorting method instance
         SortInterface si = getSort(desiredSortMethod);
-        SortManagerMain.logger.info("desiredSortMethod= " + getSort(desiredSortMethod).getClass());
         // Instantiate the DisplayManager object
         DisplayManager view = new DisplayManager();
 
         // Array to be sorted
         int[] arrayToSort = Arrays.copyOf(array, array.length);
-        SortManagerMain.logger.debug("arrayToSort= " + new DisplayManager().displayArray(arrayToSort));
         // Sort the array with the desired sorting method
         arrayToSort = si.sort(arrayToSort);
-        SortManagerMain.logger.debug("arrayToSort= " + new DisplayManager().displayArray(arrayToSort));
 
         // Return the array in a String format
+        SortManagerMain.logger.debug("Sorted Array= " + view.displayArray(arrayToSort));
         return view.displayArray(arrayToSort);
     }
 
@@ -85,10 +81,8 @@ public class SortManager {
 
         // Copy of the unsorted array
         int[] unsortedArray = Arrays.copyOf(ag.getUnsortedArray(), ag.getUnsortedArray().length);
-        SortManagerMain.logger.debug("unsortedArray= " + view.displayArray(unsortedArray));
         // Array to be sorted by Arrays.sort()
         int[] comparisonArray = Arrays.copyOf(ag.getUnsortedArray(), ag.getUnsortedArray().length);
-        SortManagerMain.logger.debug("comparisonArray= " + view.displayArray(comparisonArray));
         // Sorting with Arrays.sort() for comparison
         Arrays.sort(comparisonArray);
         SortManagerMain.logger.debug("comparisonArray= " + view.displayArray(comparisonArray));

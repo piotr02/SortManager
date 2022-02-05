@@ -19,7 +19,6 @@ public class DisplayManager {
                 + "\n------------------------------------------");
         Scanner sc = new Scanner(System.in);
         String desiredSortMethod = sc.next();
-        SortManagerMain.logger.debug("desiredSortMethod= " + desiredSortMethod);
         while(!desiredSortMethod.equals("bubble") &&
                 !desiredSortMethod.equals("merge") &&
                 !desiredSortMethod.equals("tree") &&
@@ -31,7 +30,6 @@ public class DisplayManager {
             System.out.println("Incorrect method! Try again: ");
             desiredSortMethod =sc.next();
         }
-        SortManagerMain.logger.debug("desiredSortMethod= " + desiredSortMethod);
         return desiredSortMethod;
     }
 
@@ -51,13 +49,11 @@ public class DisplayManager {
             sc.next();
         }
         int desiredArraySize = sc.nextInt();
-        SortManagerMain.logger.debug("desiredArraySize= " + desiredArraySize);
         if(desiredArraySize < 0){
             SortManagerMain.logger.warn("Negative array size entered!");
             System.out.println("Negative input! Array size will be: " + (desiredArraySize * (-1)));
             desiredArraySize = desiredArraySize * (-1);
         }
-        SortManagerMain.logger.debug("desiredArraySize= " + desiredArraySize);
         return desiredArraySize;
     }
 
@@ -77,13 +73,11 @@ public class DisplayManager {
             sc.next();
         }
         int desiredArrayBounds = sc.nextInt();
-        SortManagerMain.logger.debug("desiredArrayBounds= " + desiredArrayBounds);
         if(desiredArrayBounds < 0){
             SortManagerMain.logger.warn("Negative array range entered!");
             System.out.println("Negative input! Maximum number will be: " + (desiredArrayBounds * (-1)));
             desiredArrayBounds = desiredArrayBounds * (-1);
         }
-        SortManagerMain.logger.debug("desiredArrayBounds= " + desiredArrayBounds);
         return desiredArrayBounds;
     }
 
@@ -98,13 +92,11 @@ public class DisplayManager {
                 + "------------------------------------------");
         Scanner sc = new Scanner(System.in);
         String desiredArrayType = sc.next();
-        SortManagerMain.logger.debug("desiredArrayType=" + desiredArrayType);
         while(!desiredArrayType.equalsIgnoreCase("random")
                 && !desiredArrayType.equalsIgnoreCase("custom")){
             System.out.println("Incorrect answer! Try again: ");
             desiredArrayType =sc.next();
         }
-        SortManagerMain.logger.debug("desiredArrayType=" + desiredArrayType);
         return desiredArrayType.toLowerCase();
     }
 
@@ -144,7 +136,6 @@ public class DisplayManager {
      * Prints program headline.
      */
     public void printStart(){
-        SortManagerMain.logger.info("\nProgram Start\n");
         System.out.println("===============SORT MANAGER===============\n");
     }
 
@@ -155,7 +146,6 @@ public class DisplayManager {
      * @param sortMethod method used for sorting
      */
     public void printResult(String result, String sortMethod){
-        SortManagerMain.logger.debug("result= " + result);
         System.out.println("Sorted Array with " + sortMethod + " :\n\n"
                 + result
                 + "\n------------------------------------------");
