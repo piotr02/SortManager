@@ -12,28 +12,33 @@ public class BinarySearchTreeFacade implements SortInterface{
      */
     @Override
     public int[] sort(int[] ints) {
-        if(ints.length == 0)
-            return null;
-
-        ArrayList<Integer> list = new ArrayList<>();
-        BinarySearchTree bst = new BinarySearchTree();
-        BinarySearchTree.Node root = bst.new Node(ints[0]);
-
-        // Populate the binary search tree with values from an array
-        for(int i = 1; i < ints.length; i++){
-            bst.populateTree(root, ints[i]);
+        if(ints == null){
+            ints = new int[0];
         }
+        else{
+            if(ints.length == 0)
+                return null;
 
-        // Add sorted values into an ArrayList
-        bst.traverseInOrder(root, list);
+            ArrayList<Integer> list = new ArrayList<>();
+            BinarySearchTree bst = new BinarySearchTree();
+            BinarySearchTree.Node root = bst.new Node(ints[0]);
 
-        // Convert back to an array
-        int[] output = new int[list.size()];
-        int i = 0;
-        for(int value: list){
-            output[i] = value;
-            i++;
+            // Populate the binary search tree with values from an array
+            for(int i = 1; i < ints.length; i++){
+                bst.populateTree(root, ints[i]);
+            }
+
+            // Add sorted values into an ArrayList
+            bst.traverseInOrder(root, list);
+
+            // Convert back to an array
+            ints = new int[list.size()];
+            int i = 0;
+            for(int value: list){
+                ints[i] = value;
+                i++;
+            }
         }
-        return output;
+        return ints;
     }
 }

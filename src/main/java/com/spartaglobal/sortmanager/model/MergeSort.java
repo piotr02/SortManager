@@ -10,7 +10,11 @@ public class MergeSort implements SortInterface{
      */
     @Override
     public int[] sort(int[] ints){
-        mergeSort(ints, ints.length);
+        if(ints == null){
+            ints = new int[0];
+        }else{
+            mergeSort(ints, ints.length);
+        }
         return ints;
     }
 
@@ -21,10 +25,6 @@ public class MergeSort implements SortInterface{
      * @param length length of the unsorted array
      */
     public void mergeSort(int[] ints, int length) {
-        // making sure the code works if user inputs a wrong length
-        if(length != ints.length)
-            length = ints.length;
-
         // return if array can't be divided anymore
         if(length < 2) {
             return;

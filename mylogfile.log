@@ -4021,3 +4021,17 @@ Milliseconds:
 2.4834
 Seconds:
 0.0024834
+FILE [DEBUG] 2022-02-05 21:08:35,382 main Logger - desiredSortMethod= tree
+FILE [DEBUG] 2022-02-05 21:08:37,311 main Logger - desiredArrayType= random
+FILE [DEBUG] 2022-02-05 21:08:38,619 main Logger - arraySize= 10
+FILE [DEBUG] 2022-02-05 21:08:39,519 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-05 21:08:39,519 main Logger - Unsorted array= [-57, -19, 46, 59, 95, -95, -55, -21, -14, 78]
+FILE [DEBUG] 2022-02-05 21:08:39,520 main Logger - comparisonArray= [-95, -57, -55, -21, -19, -14, 46, 59, 78, 95]
+FILE [DEBUG] 2022-02-05 21:08:39,520 main Logger - sortMethod = tree
+FILE [DEBUG] 2022-02-05 21:08:39,522 main Logger - Sorted Array= [-95, -57, -55, -21, -19, -14, 46, 59, 78, 95]
+FILE [INFO ] 2022-02-05 21:08:39,535 main Logger - Execution time(tree) in nano seconds:
+2085800
+Milliseconds:
+2.0858
+Seconds:
+0.0020858
