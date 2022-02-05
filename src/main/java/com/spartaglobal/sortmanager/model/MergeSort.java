@@ -1,8 +1,5 @@
 package com.spartaglobal.sortmanager.model;
 
-import com.spartaglobal.sortmanager.SortManagerMain;
-import com.spartaglobal.sortmanager.view.DisplayManager;
-
 public class MergeSort implements SortInterface{
 
     /**

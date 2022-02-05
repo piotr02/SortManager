@@ -108,7 +108,7 @@ public class DisplayManager {
      */
     public String displayArray(int[] ints){
         StringBuilder output = new StringBuilder();
-        if(ints.length == 0){
+        if(ints == null || ints.length == 0){
             output.append("[]");
         }
         else{

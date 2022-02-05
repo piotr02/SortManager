@@ -1,8 +1,5 @@
 package com.spartaglobal.sortmanager.model;
 
-import com.spartaglobal.sortmanager.SortManagerMain;
-import com.spartaglobal.sortmanager.view.DisplayManager;
-
 public class BubbleSort implements SortInterface{
     /**
      * Sorts an array with a bubble sort algorithm.
@@ -12,12 +9,17 @@ public class BubbleSort implements SortInterface{
      */
     @Override
     public int[] sort(int[] array) {
-        for(int i = 0; i < array.length - 1; i++){
-            for(int j = 0; j < array.length - 1; j++){
-                if(array[j] > array[j + 1]){
-                    int temp = array[j];
-                    array[j] = array[j +1];
-                    array[j + 1] = temp;
+        if(array == null){
+            array = new int[0];
+        }
+        else{
+            for(int i = 0; i < array.length - 1; i++){
+                for(int j = 0; j < array.length - 1; j++){
+                    if(array[j] > array[j + 1]){
+                        int temp = array[j];
+                        array[j] = array[j +1];
+                        array[j + 1] = temp;
+                    }
                 }
             }
         }
