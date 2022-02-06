@@ -5,102 +5,6 @@ import java.util.Scanner;
 
 public class DisplayManager {
     /**
-     * Asks the user for input and returns a desired sorting method from it.
-     *
-     * @return desired sorting method
-     */
-    public String getDesiredSortMethod(){
-        System.out.println("Available sorting methods:\n\n"
-                + "| BubbleSort | MergeSort | BinarySearchTree |\n\n"
-                + "------------------------------------------\n"
-                + "Please enter: \"bubble\", \"merge\", \"tree\",\n"
-                + "\"bubblemerge\", \"bubbletree\", \"mergetree\",\n"
-                + "or \"bubblemergetree\" to choose a method/s: "
-                + "\n------------------------------------------");
-        Scanner sc = new Scanner(System.in);
-        String desiredSortMethod = sc.next();
-        while(!desiredSortMethod.equals("bubble") &&
-                !desiredSortMethod.equals("merge") &&
-                !desiredSortMethod.equals("tree") &&
-                !desiredSortMethod.equals("bubblemerge") &&
-                !desiredSortMethod.equals("bubbletree") &&
-                !desiredSortMethod.equals("mergetree") &&
-                !desiredSortMethod.equals("bubblemergetree")){
-            SortManagerMain.logger.warn("Incorrect sort method entered!");
-            System.out.println("Incorrect method! Try again: ");
-            desiredSortMethod =sc.next();
-        }
-        return desiredSortMethod;
-    }
-
-    /**
-     * Asks the user for input and returns a desired array size from it.
-     *
-     * @return desired array size
-     */
-    public int getDesiredArraySize(){
-        System.out.println("------------------------------------------\n"
-                +"Enter array size: "
-                + "\n------------------------------------------");
-        Scanner sc = new Scanner(System.in);
-        while(!sc.hasNextInt()){
-            SortManagerMain.logger.warn("Incorrect input! Not a number!");
-            System.out.println("Incorrect number! Enter a number: ");
-            sc.next();
-        }
-        int desiredArraySize = sc.nextInt();
-        if(desiredArraySize < 0){
-            SortManagerMain.logger.warn("Negative array size entered!");
-            System.out.println("Negative input! Array size will be: " + (desiredArraySize * (-1)));
-            desiredArraySize = desiredArraySize * (-1);
-        }
-        return desiredArraySize;
-    }
-
-    /**
-     * Asks the user for input and returns a desired array value range from it.
-     *
-     * @return desired array value range
-     */
-    public int getDesiredArrayBounds(){
-        System.out.println("------------------------------------------\n"
-                + "Enter the desired maximum possible number: "
-                + "\n------------------------------------------");
-        Scanner sc = new Scanner(System.in);
-        while(!sc.hasNextInt()){
-            SortManagerMain.logger.warn("Incorrect input! Not a number!");
-            System.out.println("Incorrect number! Enter a number: ");
-            sc.next();
-        }
-        int desiredArrayBounds = sc.nextInt();
-        if(desiredArrayBounds < 0){
-            SortManagerMain.logger.warn("Negative array range entered!");
-            System.out.println("Negative input! Maximum number will be: " + (desiredArrayBounds * (-1)));
-            desiredArrayBounds = desiredArrayBounds * (-1);
-        }
-        return desiredArrayBounds;
-    }
-
-    /**
-     * Asks the user if they want to create a random or a custom array.
-     *
-     * @return desired array type
-     */
-    public String getDesiredArrayType(){
-        System.out.println("------------------------------------------\n" +
-                "Would you like to generate a random or a custom array? Enter \"random\" or \"custom\".\n"
-                + "------------------------------------------");
-        Scanner sc = new Scanner(System.in);
-        String desiredArrayType = sc.next();
-        while(!desiredArrayType.equalsIgnoreCase("random")
-                && !desiredArrayType.equalsIgnoreCase("custom")){
-            System.out.println("Incorrect answer! Try again: ");
-            desiredArrayType =sc.next();
-        }
-        return desiredArrayType.toLowerCase();
-    }
-
-    /**
      * Converts an array into a readable String format.
      *
      * @param ints array to be converted
@@ -151,7 +55,6 @@ public class DisplayManager {
                 + "\n------------------------------------------\n"
                 + getDuration(duration, sortMethod)
                 + "\n------------------------------------------");
-
     }
 
     /**

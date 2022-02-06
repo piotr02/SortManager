@@ -66,19 +66,86 @@ public class ArrayGenerator {
     public void generateArray(String desiredArrayType){
         DisplayManager view = new DisplayManager();
         if(desiredArrayType.equals("random")){
-            int arraySize = view.getDesiredArraySize();
+            int arraySize = getDesiredArraySize();
             SortManagerMain.logger.debug("arraySize= " + arraySize);
-            int arrayBounds = view.getDesiredArrayBounds();
+            int arrayBounds = getDesiredArrayBounds();
             SortManagerMain.logger.debug("arrayBounds= " + arrayBounds);
 
             generateRandomArray(arraySize, arrayBounds);
             SortManagerMain.logger.debug("Unsorted array= " + view.displayArray(getUnsortedArray()));
         }
         else{
-            int arraySize = view.getDesiredArraySize();
+            int arraySize = getDesiredArraySize();
             SortManagerMain.logger.debug("arraySize= " + arraySize);
             generateCustomArray(arraySize);
             SortManagerMain.logger.info("Unsorted array= " + view.displayArray(getUnsortedArray()));
         }
+    }
+
+    /**
+     * Asks the user for input and returns a desired array size from it.
+     *
+     * @return desired array size
+     */
+    public int getDesiredArraySize(){
+        System.out.println("------------------------------------------\n"
+                +"Enter array size: "
+                + "\n------------------------------------------");
+        Scanner sc = new Scanner(System.in);
+        while(!sc.hasNextInt()){
+            SortManagerMain.logger.warn("Incorrect input! Not a number!");
+            System.out.println("Incorrect number! Enter a number: ");
+            sc.next();
+        }
+        int desiredArraySize = sc.nextInt();
+        if(desiredArraySize < 0){
+            SortManagerMain.logger.warn("Negative array size entered!");
+            System.out.println("Negative input! Array size will be: " + (desiredArraySize * (-1)));
+            desiredArraySize = desiredArraySize * (-1);
+        }
+        return desiredArraySize;
+    }
+
+    /**
+     * Asks the user for input and returns a desired array value range from it.
+     *
+     * @return desired array value range
+     */
+    public int getDesiredArrayBounds(){
+        System.out.println("------------------------------------------\n"
+                + "Enter the desired maximum possible number: "
+                + "\n------------------------------------------");
+        Scanner sc = new Scanner(System.in);
+        while(!sc.hasNextInt()){
+            SortManagerMain.logger.warn("Incorrect input! Not a number!");
+            System.out.println("Incorrect number! Enter a number: ");
+            sc.next();
+        }
+        int desiredArrayBounds = sc.nextInt();
+        if(desiredArrayBounds < 0){
+            SortManagerMain.logger.warn("Negative array range entered!");
+            System.out.println("Negative input! Maximum number will be: " + (desiredArrayBounds * (-1)));
+            desiredArrayBounds = desiredArrayBounds * (-1);
+        }
+        return desiredArrayBounds;
+    }
+
+    /**
+     * Asks the user if they want to create a random or a custom array.
+     *
+     * @return desired array type
+     */
+    public String getDesiredArrayType(){
+        System.out.println("------------------------------------------\n" +
+                "Would you like to generate a random or a custom array? Enter \"random\" or \"custom\".\n"
+                + "------------------------------------------");
+        Scanner sc = new Scanner(System.in);
+        String desiredArrayType = sc.next();
+        while(!desiredArrayType.equalsIgnoreCase("random")
+                && !desiredArrayType.equalsIgnoreCase("custom")){
+            System.out.println("Incorrect answer! Try again: ");
+            desiredArrayType =sc.next();
+        }
+        return desiredArrayType.toLowerCase();
     }
 }

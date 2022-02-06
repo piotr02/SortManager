@@ -4,6 +4,7 @@ import com.spartaglobal.sortmanager.SortManagerMain;
 import com.spartaglobal.sortmanager.model.*;
 import com.spartaglobal.sortmanager.view.DisplayManager;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class SortManager {
     /**
@@ -115,5 +116,34 @@ public class SortManager {
             SortManagerMain.logger.info(view.getDuration(duration, desiredSortMethod));
             view.printResult(result, desiredSortMethod, duration);
         }
+    }
+
+    /**
+     * Asks the user for input and returns a desired sorting method from it.
+     *
+     * @return desired sorting method
+     */
+    public String getDesiredSortMethod(){
+        System.out.println("Available sorting methods:\n\n"
+                + "| BubbleSort | MergeSort | BinarySearchTree |\n\n"
+                + "------------------------------------------\n"
+                + "Please enter: \"bubble\", \"merge\", \"tree\",\n"
+                + "\"bubblemerge\", \"bubbletree\", \"mergetree\",\n"
+                + "or \"bubblemergetree\" to choose a method/s: "
+                + "\n------------------------------------------");
+        Scanner sc = new Scanner(System.in);
+        String desiredSortMethod = sc.next();
+        while(!desiredSortMethod.equals("bubble") &&
+                !desiredSortMethod.equals("merge") &&
+                !desiredSortMethod.equals("tree") &&
+                !desiredSortMethod.equals("bubblemerge") &&
+                !desiredSortMethod.equals("bubbletree") &&
+                !desiredSortMethod.equals("mergetree") &&
+                !desiredSortMethod.equals("bubblemergetree")){
+            SortManagerMain.logger.warn("Incorrect sort method entered!");
+            System.out.println("Incorrect method! Try again: ");
+            desiredSortMethod =sc.next();
+        }
+        return desiredSortMethod;
     }
 }
