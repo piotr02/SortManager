@@ -23,7 +23,13 @@ public class BinarySearchTree{
         root = null;
     }
 
-    // Populate the binary search tree with Nodes in a sorted order
+    /**
+     * Populates the binary search tree with values in sorted order.
+     *
+     * @param current current node
+     * @param value value to be added
+     * @return new Node
+     */
     public Node populateTree(Node current, int value) {
         if (current == null) {
             return new Node(value);
@@ -40,7 +46,12 @@ public class BinarySearchTree{
         return current;
     }
 
-    // Traverse the binary search tree to add Nodes to an ArrayList
+    /**
+     * Traverses the binary search tree and adds its values to an ArrayList.
+     *
+     * @param node node of the tree
+     * @param list list of the node values
+     */
     public void traverseInOrder(Node node, ArrayList<Integer> list) {
         if (node != null) {
             traverseInOrder(node.left, list);
