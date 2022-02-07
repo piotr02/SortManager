@@ -1,0 +1,61 @@
+FILE [INFO ] 2022-02-07 00:24:20,591 main Logger - Program Start
+FILE [DEBUG] 2022-02-07 00:24:27,423 main Logger - desiredSortMethod= bubblemergetree
+FILE [DEBUG] 2022-02-07 00:24:30,470 main Logger - desiredArrayType= custom
+FILE [DEBUG] 2022-02-07 00:24:33,283 main Logger - arraySize= 5
+FILE [INFO ] 2022-02-07 00:24:43,215 main Logger - Unsorted array= [7, -43, 98, 32, -9]
+FILE [DEBUG] 2022-02-07 00:24:43,216 main Logger - comparisonArray= [-43, -9, 7, 32, 98]
+FILE [DEBUG] 2022-02-07 00:24:43,217 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-07 00:24:43,219 main Logger - Sorted Array= [-43, -9, 7, 32, 98]
+FILE [INFO ] 2022-02-07 00:24:43,231 main Logger - Execution time (bubble) in:
+Nanoseconds:
+2218800
+Milliseconds:
+2.2188
+Seconds:
+0.0022188
+FILE [DEBUG] 2022-02-07 00:24:43,236 main Logger - sortMethod = merge
+FILE [DEBUG] 2022-02-07 00:24:43,259 main Logger - Sorted Array= [-43, -9, 7, 32, 98]
+FILE [INFO ] 2022-02-07 00:24:43,260 main Logger - Execution time (merge) in:
+Nanoseconds:
+23797700
+Milliseconds:
+23.7977
+Seconds:
+0.0237977
+FILE [DEBUG] 2022-02-07 00:24:43,260 main Logger - sortMethod = tree
+FILE [DEBUG] 2022-02-07 00:24:43,262 main Logger - Sorted Array= [-43, -9, 7, 32, 98]
+FILE [INFO ] 2022-02-07 00:24:43,262 main Logger - Execution time (tree) in:
+Nanoseconds:
+2167900
+Milliseconds:
+2.1679
+Seconds:
+0.0021679
+FILE [INFO ] 2022-02-07 00:24:43,262 main Logger - Program End
+FILE [INFO ] 2022-02-07 00:25:42,914 main Logger - Program Start
+FILE [DEBUG] 2022-02-07 00:25:46,257 main Logger - desiredSortMethod= bubblemerge
+FILE [DEBUG] 2022-02-07 00:25:51,915 main Logger - desiredArrayType= random
+FILE [WARN ] 2022-02-07 00:25:57,888 main Logger - Negative array size entered!
+FILE [DEBUG] 2022-02-07 00:25:57,889 main Logger - arraySize= 8
+FILE [DEBUG] 2022-02-07 00:26:02,624 main Logger - arrayBounds= 100
+FILE [DEBUG] 2022-02-07 00:26:02,624 main Logger - Unsorted array= [-4, -27, -84, 31, -28, 1, -79, -24]
+FILE [DEBUG] 2022-02-07 00:26:02,624 main Logger - comparisonArray= [-84, -79, -28, -27, -24, -4, 1, 31]
+FILE [DEBUG] 2022-02-07 00:26:02,625 main Logger - sortMethod = bubble
+FILE [DEBUG] 2022-02-07 00:26:02,627 main Logger - Sorted Array= [-84, -79, -28, -27, -24, -4, 1, 31]
+FILE [INFO ] 2022-02-07 00:26:02,638 main Logger - Execution time (bubble) in:
+Nanoseconds:
+2361500
+Milliseconds:
+2.3615
+Seconds:
+0.0023615
+FILE [DEBUG] 2022-02-07 00:26:02,642 main Logger - sortMethod = merge
+FILE [DEBUG] 2022-02-07 00:26:02,643 main Logger - Sorted Array= [-84, -79, -28, -27, -24, -4, 1, 31]
+FILE [INFO ] 2022-02-07 00:26:02,643 main Logger - Execution time (merge) in:
+Nanoseconds:
+1507600
+Milliseconds:
+1.5076
+Seconds:
+0.0015076
+FILE [INFO ] 2022-02-07 00:26:02,644 main Logger - Program End

@@ -55,7 +55,7 @@ the 4 pillars of Object-Oriented Programming, and
 the SOLID principles. The classes are divided into
 packages: "model", "view", and "controller", there are 4 test
 classes, and a "resources" folder containing log4j2.properties file
-and the log output file called "mylogfile.log".
+and the log output file called "logOutput.log".
 
 The project was implemented in 5 phases, within 1 week.
 The details about each phase are available in the
@@ -114,7 +114,7 @@ Logging code was implemented with the use of log4j,
 with a log4j2.properties file, located in the "resources"
 folder. Logs of different levels were inserted into
 the code, to show different stages of the program. The
-Output of the logs is stored in the "mylogfile.log"
+Output of the logs is stored in the "logOutput.log"
 file in the "resources" folder.
 
 ### Phase 4
