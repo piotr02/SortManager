@@ -195,12 +195,15 @@ If a negative number is entered, it will be automatically converted
 into a positive one and the user will be notified of
 that. 
 
+Example of input validation:
+![](validationExample.jpg)
+
 ## Tools Required To Run The Project
 1. IntelliJ IDEA Community or Ultimate Edition
 2. Java 17 JDK
 
 ## Dependencies
-```
+```xml
 <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -235,4 +238,11 @@ your project directory.
 4. If you chose "random" enter a number for the array size, and then a number for the range of the array values. If you chose "custom", enter the array size, and then type in your values, one at a time
 5. The chosen sorting methods will now execute and the output will be visible in the console.
 
+For instance, the following input:
+
+![](exampleInput.jpg)
+
+Will result in the following output (the array will be different each time):
+
+![](exampleOutput.jpg)
 
