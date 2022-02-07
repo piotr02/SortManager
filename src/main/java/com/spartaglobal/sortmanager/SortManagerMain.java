@@ -10,6 +10,7 @@ public class SortManagerMain {
     public static Logger logger = LogManager.getLogger("Logger");
 
     public static void main(String[] args) {
+        logger.info("Program Start");
         DisplayManager view = new DisplayManager();
         ArrayGenerator ag = new ArrayGenerator();
         SortManager sm = new SortManager();
@@ -20,6 +21,6 @@ public class SortManagerMain {
         String desiredArrayType = ag.getDesiredArrayType();
         logger.debug("desiredArrayType= " + desiredArrayType);
         controller.executeSort(desiredSortMethod, desiredArrayType);
-
+        logger.info("Program End");
     }
 }

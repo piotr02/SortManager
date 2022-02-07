@@ -41,7 +41,7 @@ public class SortManager {
         SortFactory sf = switch (sortMethod.toLowerCase()) {
             case "bubble" -> new BubbleSortFactory();
             case "merge" -> new MergeSortFactory();
-            case "tree" -> new BinarySearchTreeFactory();
+            case "tree" -> new BinarySearchTreeFacadeFactory();
             default -> null;
         };
         return sf.getInstance();

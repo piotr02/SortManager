@@ -1,8 +1,5 @@
 package com.spartaglobal.sortmanager.view;
 
-import com.spartaglobal.sortmanager.SortManagerMain;
-import java.util.Scanner;
-
 public class DisplayManager {
     /**
      * Converts an array into a readable String format.
@@ -81,7 +78,7 @@ public class DisplayManager {
      * @return String with the time the sorting algorithm took
      */
     public String getDuration(long duration, String sortMethod){
-        return "Execution time(" + sortMethod + ") in nano seconds:\n" + (duration)
+        return "Execution time (" + sortMethod + ") in:\nNanoseconds:\n" + (duration)
                 + "\nMilliseconds:\n" + ((double)(duration)/1000000)
                 + "\nSeconds:\n" + ((double)(duration)/1000000000);
     }
