@@ -196,6 +196,7 @@ into a positive one and the user will be notified of
 that. 
 
 Example of input validation:
+
 ![](validationExample.jpg)
 
 ## Tools Required To Run The Project
